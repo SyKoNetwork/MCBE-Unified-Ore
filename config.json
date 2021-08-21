@@ -1,0 +1,13 @@
+{
+	"type": "minecraftBedrock",
+	"name": "MCBE-Unified-Ore",
+	"namespace": "ore-uni",
+	"author": "The SyKoNetwork",
+	"targetVersion": "1.17.20",
+	"description": "",
+	"capabilities": [],
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	}
+}

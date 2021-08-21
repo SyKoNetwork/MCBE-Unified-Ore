@@ -1,0 +1,11 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"ore-uni:tin_ore": {
+		"textures": "ore-uni_tin_ore",
+		"sound": "stone"
+	}
+}
