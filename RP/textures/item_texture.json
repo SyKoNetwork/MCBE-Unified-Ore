@@ -1,5 +1,13 @@
 {
-	"resource_pack_name": "MCBE-Unified-Ore",
-	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"ore-uni_tin_chunk": {
+			"textures": "textures/items/tin_chunk"
+		},
+		"ore-uni_white_diamond_fragment": {
+			"textures": "textures/items/white_diamond_fragment"
+		},
+		"ore-uni_white_diamond": {
+			"textures": "textures/items/white_diamond"
+		}
+	}
 }

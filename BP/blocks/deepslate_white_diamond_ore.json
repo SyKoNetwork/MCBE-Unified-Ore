@@ -2,14 +2,14 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ore-uni:tin_ore"
+			"identifier": "ore-uni:deepslate_white_diamond_ore"
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
 			"minecraft:explosion_resistance": 1,
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "uni_tin_ore",
+					"texture": "uni_deepslate_white_diamond_ore",
 					"render_method": "opaque"
 				}
 			},
@@ -22,7 +22,7 @@
 		"events": {
 			"ore-uni:destroyed": {
 				"spawn_loot": {
-					"table": "loot_tables/tin_ore.json"
+					"table": "loot_tables/deepslate_white_diamond_ore.json"
 				}
 			}
 		}

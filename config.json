@@ -2,12 +2,27 @@
 	"type": "minecraftBedrock",
 	"name": "MCBE-Unified-Ore",
 	"namespace": "ore-uni",
-	"author": "The SyKoNetwork",
 	"targetVersion": "1.17.20",
 	"description": "",
-	"capabilities": [],
 	"packs": {
 		"behaviorPack": "./BP",
 		"resourcePack": "./RP"
+	},
+	"experimentalGameplay": {
+		"enableGameTestFramework": false,
+		"additionalModdingCapabilities": false,
+		"cavesAndCliffs": true,
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": true
+	},
+	"authors": [
+		"The SyKoNetwork"
+	],
+	"bridge": {
+		"darkTheme": "bridge.blue.dark_theme",
+		"lightTheme": "solved.custom_theme.light_coral"
 	}
 }

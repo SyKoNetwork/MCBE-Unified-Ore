@@ -29,15 +29,24 @@
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",
-				"extent": [0, 16]
+				"extent": [
+					0,
+					16
+				]
 			},
 			"y": {
 				"distribution": "uniform",
-				"extent": [0, 64]
+				"extent": [
+					0,
+					64
+				]
 			},
 			"z": {
 				"distribution": "uniform",
-				"extent": [0, 16]
+				"extent": [
+					0,
+					16
+				]
 			}
 		}
 	}

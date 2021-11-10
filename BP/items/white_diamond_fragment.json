@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ore-uni:white_diamond_fragment",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "ore-uni_white_diamond_fragment"
+			},
+			"minecraft:display_name": {
+				"value": "White Diamond Fragment"
+			}
+		}
+	}
+}

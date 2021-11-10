@@ -1,11 +1,18 @@
 {
-	"num_mip_levels": 4,
-	"padding": 8,
-	"resource_pack_name": "MCBE-Unified-Ore",
+	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
 	"texture_data": {
-		"ore-uni_tin_ore": {
+		"uni_tin_ore": {
 			"textures": "textures/blocks/tin_ore"
+		},
+		"uni_white_diamond_ore": {
+			"textures": "textures/blocks/white_diamond_ore"
+		},
+		"uni_deepslate_white_diamond_ore": {
+			"textures": "textures/blocks/deepslate_white_diamond_ore"
+		},
+		"uni_topaz_ore": {
+			"textures": "textures/blocks/topaz_ore"
 		}
 	}
 }

@@ -1,3 +1,6 @@
 pack.name=MCBE-Unified-Ore RP
-pack.description=
+pack.description=MCBE-Unified-Ore RP
 tile.ore-uni:tin_ore.name=Tin Ore
+item.ore-uni:tin_chunk=Tin_chunk
+item.ore-uni:white_diamond_fragment=White Fragment
+item.ore-uni:white_diamond=White Diamond

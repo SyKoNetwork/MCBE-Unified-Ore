@@ -3,12 +3,12 @@
 	"header": {
 		"name": "pack.name",
 		"description": "pack.description",
+		"uuid": "af1cbc8b-9a0b-437c-a39a-e3b7d15b0f63",
 		"min_engine_version": [
 			1,
 			17,
 			0
 		],
-		"uuid": "af1cbc8b-9a0b-437c-a39a-e3b7d15b0f63",
 		"version": [
 			1,
 			0,
@@ -17,7 +17,6 @@
 	},
 	"modules": [
 		{
-			"description": "",
 			"type": "data",
 			"uuid": "be92646a-ea38-4bc3-add4-82c1e88afd24",
 			"version": [
@@ -36,5 +35,12 @@
 				0
 			]
 		}
-	]
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.1.5"
+			]
+		}
+	}
 }
