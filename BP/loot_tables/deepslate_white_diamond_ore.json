@@ -5,12 +5,70 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe",
-						"minecraft:netherite_pickaxe"
-					],
+					"item": "minecraft:iron_pickaxe",
+					"count": 1
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:golden_pickaxe",
+					"count": 1
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:diamond_pickaxe",
+					"count": 1
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:netherite_pickaxe",
 					"count": 1
 				}
 			],
@@ -31,12 +89,7 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe",
-						"minecraft:netherite_pickaxe"
-					],
+					"item": "minecraft:iron_pickaxe",
 					"count": 1,
 					"enchantments": [
 						{
@@ -60,16 +113,179 @@
 			]
 		},
 		{
-			"rolls": 4,
+			"rolls": 2,
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe",
-						"minecraft:netherite_pickaxe"
-					],
+					"item": "minecraft:golden_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 1
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:diamond_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 1
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:netherite_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 1
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:iron_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 2
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:golden_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 2
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:diamond_pickaxe",
+					"count": 1,
+					"enchantments": [
+						{
+							"fortune": {
+								"level": 2
+							}
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"weight": 4,
+					"type": "item",
+					"name": "ore-uni:white_diamond_fragment"
+				},
+				{
+					"weight": 1,
+					"type": "empty"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"item": "minecraft:netherite_pickaxe",
 					"count": 1,
 					"enchantments": [
 						{
