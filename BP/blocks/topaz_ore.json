@@ -14,17 +14,7 @@
 				}
 			},
 			"minecraft:unit_cube": {},
-			"minecraft:loot": "loot_tables/empty.json",
-			"minecraft:on_player_destroyed": {
-				"event": "ore-uni:destroyed"
-			}
-		},
-		"events": {
-			"ore-uni:destroyed": {
-				"spawn_loot": {
-					"table": "loot_tables/topaz_ore.json"
-				}
-			}
+			"minecraft:loot": "loot_tables/topaz_ore.json"
 		}
 	}
 }
