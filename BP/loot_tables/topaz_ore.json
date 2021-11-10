@@ -5,9 +5,7 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:iron_pickaxe"
-					],
+					"item": "minecraft:iron_pickaxe",
 					"count": 1
 				}
 			],
@@ -23,9 +21,7 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:golden_pickaxe"
-					],
+					"item": "minecraft:golden_pickaxe",
 					"count": 1
 				}
 			],
@@ -41,9 +37,7 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:diamond_pickaxe"
-					],
+					"item": "minecraft:diamond_pickaxe",
 					"count": 1
 				}
 			],
@@ -59,9 +53,7 @@
 			"conditions": [
 				{
 					"condition": "match_tool",
-					"item": [
-						"minecraft:netherite_pickaxe"
-					],
+					"item": "minecraft:netherite_pickaxe",
 					"count": 1
 				}
 			],
