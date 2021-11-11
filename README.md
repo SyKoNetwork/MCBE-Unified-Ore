@@ -53,7 +53,7 @@ All identifier names should be in the vanilla style and use the namespace **ore-
 
 ### Copyright
 
-Please ensure that **any** and **all** texture submissions are either your own work or with permission of the original creator
+Please ensure that **any** and **all** texture submissions are either your own work or submitted with permission of the original creator
 
 ### Opening a Pull Request
 
