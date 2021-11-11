@@ -51,6 +51,10 @@ All identifier names should be in the vanilla style and use the namespace **ore-
 "ore-uni:"ore_name"
 ```
 
+### Copyright
+
+Please ensure that **any** and **all** texture submissions are either your own work or with permission of the original creator
+
 ### Opening a Pull Request
 
 Please make sure that you have been working with the "dev" branch. Pull request should use the "dev" branch as their base.
