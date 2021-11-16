@@ -13,6 +13,12 @@
 		},
 		"uni_topaz_ore": {
 			"textures": "textures/blocks/topaz/topaz_ore"
+		},
+		"uni_tourmaline_ore": {
+			"textures": "textures/blocks/tourmaline/tourmaline_ore"
+		},
+		"uni_deepslate_tourmaline_ore": {
+			"textures": "textures/blocks/tourmaline/deepslate_tourmaline_ore"
 		}
 	}
 }

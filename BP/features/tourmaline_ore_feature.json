@@ -1,0 +1,59 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "ore-uni:tourmaline_ore_feature"
+        },
+        "count": 9,
+        "replace_rules": [
+            {
+                "places_block": {
+                    "name": "ore-uni:tourmaline_ore",
+                    "states": {}
+                },
+                "may_replace": [
+                    {
+                        "name": "minecraft:stone",
+                        "states": {
+                            "stone_type": "stone"
+                        }
+                    },
+                    {
+                        "name": "minecraft:stone",
+                        "states": {
+                            "stone_type": "andesite"
+                        }
+                    },
+                    {
+                        "name": "minecraft:stone",
+                        "states": {
+                            "stone_type": "granite"
+                        }
+                    },
+                    {
+                        "name": "minecraft:stone",
+                        "states": {
+                            "stone_type": "diorite"
+                        }
+                    }
+                ]
+            },
+            {
+                "places_block": {
+                    "name": "ore-uni:deepslate_tourmaline_ore",
+                    "states": {}
+                },
+                "may_replace": [
+                    {
+                        "name": "minecraft:deepslate",
+                        "states": {}
+                    },
+                    {
+                        "name": "minecraft:tuff",
+                        "states": {}
+                    }
+                ]
+            }
+        ]
+    }
+}
