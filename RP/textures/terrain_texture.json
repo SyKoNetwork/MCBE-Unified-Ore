@@ -5,6 +5,9 @@
 		"uni_tin_ore": {
 			"textures": "textures/blocks/tin/tin_ore"
 		},
+		"uni_deepslate_tin_ore": {
+			"textures": "textures/blocks/tin/deepslate_tin_ore"
+		},
 		"uni_white_diamond_ore": {
 			"textures": "textures/blocks/white_diamond/white_diamond_ore"
 		},
