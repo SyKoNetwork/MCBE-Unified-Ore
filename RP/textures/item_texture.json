@@ -8,6 +8,9 @@
 		},
 		"ore-uni_white_diamond": {
 			"textures": "textures/items/white_diamond/white_diamond"
+		},
+		"ore-uni_tourmaline": {
+			"textures": "textures/items/tourmaline/tourmaline"
 		}
 	}
 }
