@@ -4,7 +4,7 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 
 >  ## Added ores  
 > - [X] Tin  
-> - [ ] Deepslate Tin  
+> - [X] Deepslate Tin  
 > - [X] White Diamond
 > - [X] Deepslate White Diamond
 > - [X] Topaz
