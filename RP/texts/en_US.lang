@@ -1,8 +1,10 @@
 pack.name=MCBE-Unified-Ore RP
 pack.description=MCBE-Unified-Ore RP
+tile.ore-uni:deepslate_tin_ore.name=Deepslate Tin Ore
 tile.ore-uni:tin_ore.name=Tin Ore
+tile.ore-uni:deepslate_topaz_ore.name=Deepslate Topaz Ore
 tile.ore-uni:topaz_ore.name=Topaz Ore
-tile.ore-uni:deepsalte_white_diamond_ore.name=Deepslate White Diamond Ore
-tile.ore-uni:white_diamond_ore=White Diamond Ore
+tile.ore-uni:deepslate_white_diamond_ore.name=Deepslate White Diamond Ore
+tile.ore-uni:white_diamond_ore.name=White Diamond Ore
 tile.ore-uni:deepslate_tourmaline_ore.name=Deepslate Tourmaline Ore
 tile.ore-uni:tourmaline_ore.name=Tourmaline Ore

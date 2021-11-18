@@ -5,6 +5,10 @@
 			"identifier": "ore-uni:tin_ore"
 		},
 		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
 			"minecraft:destroy_time": 1,
 			"minecraft:explosion_resistance": 1,
 			"minecraft:material_instances": {
