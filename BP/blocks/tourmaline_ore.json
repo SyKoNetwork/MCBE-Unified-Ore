@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ore-uni:tourmaline_ore"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:destroy_time": 1,
+            "minecraft:explosion_resistance": 1,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "uni_tourmaline_ore",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": "loot_tables/tourmaline_ore.json"
+        }
+    }
+}

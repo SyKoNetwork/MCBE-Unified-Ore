@@ -5,6 +5,9 @@
 		"uni_tin_ore": {
 			"textures": "textures/blocks/tin/tin_ore"
 		},
+		"uni_deepslate_tin_ore": {
+			"textures": "textures/blocks/tin/deepslate_tin_ore"
+		},
 		"uni_white_diamond_ore": {
 			"textures": "textures/blocks/white_diamond/white_diamond_ore"
 		},
@@ -13,6 +16,15 @@
 		},
 		"uni_topaz_ore": {
 			"textures": "textures/blocks/topaz/topaz_ore"
+		},
+		"uni_deepslate_topaz_ore": {
+			"textures": "textures/blocks/topaz/deepslate_topaz_ore"
+		},
+		"uni_tourmaline_ore": {
+			"textures": "textures/blocks/tourmaline/tourmaline_ore"
+		},
+		"uni_deepslate_tourmaline_ore": {
+			"textures": "textures/blocks/tourmaline/deepslate_tourmaline_ore"
 		}
 	}
 }
