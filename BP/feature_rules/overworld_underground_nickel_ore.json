@@ -2,8 +2,8 @@
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
         "description": {
-            "identifier": "ore-uni:overworld_underground_tourmaline_ore",
-            "places_feature": "ore-uni:tourmaline_ore_feature"
+            "identifier": "ore-uni:overworld_underground_nickel_ore",
+            "places_feature": "ore-uni:nickel_ore_feature"
         },
         "conditions": {
             "placement_pass": "underground_pass",
@@ -37,8 +37,8 @@
             "y": {
                 "distribution": "uniform",
                 "extent": [
-                    0,
-                    32
+                    -64,
+                    50
                 ]
             },
             "z": {

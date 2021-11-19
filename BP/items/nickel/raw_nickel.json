@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ore-uni:raw_nickel",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "ore-uni_raw_nickel"
+            },
+            "minecraft:display_name": {
+                "value": "Raw Nickel"
+            }
+        }
+    }
+}

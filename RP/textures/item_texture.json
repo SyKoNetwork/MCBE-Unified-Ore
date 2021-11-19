@@ -1,16 +1,19 @@
 {
 	"texture_data": {
-		"ore-uni_tin_chunk": {
-			"textures": "textures/items/tin/tin_chunk"
-		},
-		"ore-uni_white_diamond_fragment": {
-			"textures": "textures/items/white_diamond/white_diamond_fragment"
+		"ore-uni_raw_tin": {
+			"textures": "textures/items/tin/raw_tin"
 		},
 		"ore-uni_white_diamond": {
 			"textures": "textures/items/white_diamond/white_diamond"
 		},
 		"ore-uni_tourmaline": {
 			"textures": "textures/items/tourmaline/tourmaline"
+		},
+		"ore-uni_raw_nickel": {
+			"textures": "textures/items/nickel/raw_nickel"
+		},
+		"ore-uni_nickel_ingot": {
+			"textures": "textures/items/nickel/nickel_ingot"
 		}
 	}
 }

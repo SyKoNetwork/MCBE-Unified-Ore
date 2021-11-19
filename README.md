@@ -11,6 +11,8 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 > - [X] Deepslate Topaz
 > - [X] Tourmaline
 > - [X] Deepslate Tourmaline
+> - [X] Nickel
+> - [X] Deepslate Nickel
 
 # Contributing
 
@@ -31,17 +33,32 @@ functionality at least once and didn't encounter unexpected behaviour.
 
 #### General
 
-We request that all texture submissions be nested in a folder with the name of the ore you are submitting
+We request that all texture/file submissions be nested in a folder with the name of the ore you are submitting
 
 ```
+BP/blocks/"ore_name"/deep_slate_"ore_name".json
+BP/blocks/"ore_name"/"ore_name".json
+BP/blocks/"ore_name"/raw_"ore_name"_block.json
+
+BP/faeture_rules/overworld_underground_"ore_name"_ore.json
+
+BP/feature/"ore_name"_feature.json
+
+BP/items/"ore_name"/raw_"ore_name".json
+
+BP/loot_tables/"ore_name"/"ore_name".json
+
+BP/recipes/"ore_name"/furnace_deepslate_"ore_name".json
+BP/recipes/"ore_name"/furnace_"ore_name".json
+BP/recipes/"ore_name"/furnace_raw_"ore_name".json
+BP/recipes/"ore_name"/crafting_raw_"ore_name"_block.json
+
 RP/textures/blocks/"ore_name"/deepslate_"ore_name"
 RP/textures/blocks/"ore_name"/"ore_name"
-```
+RP/textures/blocks/"ore_name"/"ore_name"_block
 
-Same with items
-
-```
-RP/textures/items/"ore_name"/"ore_name"_chunk
+RP/textures/items/"ore_name"/raw_"ore_name"
+RP/textures/items/"ore_name"/"ore_name"_ingot
 ```
 
 #### Names
@@ -49,8 +66,11 @@ RP/textures/items/"ore_name"/"ore_name"_chunk
 All identifier names should be in the vanilla style and use the namespace **ore-uni:**.
 
 ```
-"ore-uni:deepslate_"ore_name"
-"ore-uni:"ore_name"
+ore-uni:deepslate_"ore_name"
+ore-uni:"ore_name"
+ore-uni:raw_"ore_name"_block
+
+ore-uni:raw_"ore_name"
 ```
 
 ### Copyright
@@ -59,4 +79,4 @@ Please ensure that **any** and **all** texture submissions are either your own w
 
 ### Opening a Pull Request
 
-Please make sure that you have been working with the "dev" branch. Pull request should use the "dev" branch as their base.
+Please make sure that you have been working with the "dev" branch. Pull requests should use the "dev" branch as their base.
