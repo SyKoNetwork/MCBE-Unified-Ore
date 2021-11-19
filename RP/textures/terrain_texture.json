@@ -25,6 +25,12 @@
 		},
 		"uni_deepslate_tourmaline_ore": {
 			"textures": "textures/blocks/tourmaline/deepslate_tourmaline_ore"
+		},
+		"uni_nickel_ore": {
+			"textures": "textures/blocks/nickel/nickel_ore"
+		},
+		"uni_deepslate_nickel_ore": {
+			"textures": "textures/blocks/nickel/deepslate_nickel_ore"
 		}
 	}
 }
