@@ -14,7 +14,7 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 > - [X] Nickel
 > - [X] Deepslate Nickel
 
-##General Discussion
+## General Discussion
 
 You can make suggestions either on github as an ISSUE or on [Discord](https://discord.gg/b7KeMAYdGV)
 
