@@ -4,7 +4,7 @@
         "description": {
             "identifier": "ore-uni:tourmaline_ore_feature"
         },
-        "count": 8,
+        "count": 9,
         "replace_rules": [
             {
                 "places_block": {

@@ -58,6 +58,7 @@ RP/textures/blocks/"ore_name"/"ore_name"
 RP/textures/blocks/"ore_name"/"ore_name"_block
 
 RP/textures/items/"ore_name"/raw_"ore_name"
+RP/textures/items/"ore_name"/"ore_name"_ingot
 ```
 
 #### Names
