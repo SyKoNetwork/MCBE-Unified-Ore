@@ -4,7 +4,7 @@
         "description": {
             "identifier": "ore-uni:topaz_ore_feature"
         },
-        "count": 3,
+        "count": 8,
         "replace_rules": [
             {
                 "places_block": {

@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "ore-uni:white_diamond_ore_feature"
 		},
-		"count": 2,
+		"count": 8,
 		"replace_rules": [
 			{
 				"places_block": {
