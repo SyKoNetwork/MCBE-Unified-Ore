@@ -11,6 +11,12 @@
 		},
 		"ore-uni_tourmaline": {
 			"textures": "textures/items/tourmaline/tourmaline"
+		},
+		"ore-uni_raw_nickel": {
+			"textures": "textures/items/nickel/raw_nickel"
+		},
+		"ore-uni_nickel_ingot": {
+			"textures": "textures/items/nickel/nickel_ingot"
 		}
 	}
 }
