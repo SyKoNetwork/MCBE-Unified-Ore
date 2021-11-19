@@ -14,6 +14,10 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 > - [X] Nickel
 > - [X] Deepslate Nickel
 
+## General Discussion
+
+You can make suggestions either on github as an ISSUE or on [Discord](https://discord.gg/b7KeMAYdGV)
+
 # Contributing
 
 Thank you for considering to contribute to the **"MCBE-Unified-Ore"** project!
@@ -40,7 +44,7 @@ BP/blocks/"ore_name"/deep_slate_"ore_name".json
 BP/blocks/"ore_name"/"ore_name".json
 BP/blocks/"ore_name"/raw_"ore_name"_block.json
 
-BP/feaure_rules/overworld_underground_"ore_name"_ore.json
+BP/feature_rules/overworld_underground_"ore_name"_ore.json
 
 BP/feature/"ore_name"_feature.json
 
