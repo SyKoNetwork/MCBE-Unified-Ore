@@ -2,13 +2,13 @@
     "format_version": "1.17.0",
     "minecraft:ore_feature": {
         "description": {
-            "identifier": "ore-uni:tourmaline_ore_feature"
+            "identifier": "ore-uni:topaz_ore_feature"
         },
-        "count": 4,
+        "count": 3,
         "replace_rules": [
             {
                 "places_block": {
-                    "name": "ore-uni:tourmaline_ore",
+                    "name": "ore-uni:topaz_ore",
                     "states": {}
                 },
                 "may_replace": [
@@ -40,7 +40,7 @@
             },
             {
                 "places_block": {
-                    "name": "ore-uni:deepslate_tourmaline_ore",
+                    "name": "ore-uni:deepslate_topaz_ore",
                     "states": {}
                 },
                 "may_replace": [

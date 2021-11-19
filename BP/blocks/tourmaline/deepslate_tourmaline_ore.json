@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "ore-uni:tourmaline_ore"
+            "identifier": "ore-uni:deepslate_tourmaline_ore"
         },
         "components": {
             "minecraft:creative_category": {
@@ -13,12 +13,12 @@
             "minecraft:explosion_resistance": 1,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "uni_tourmaline_ore",
+                    "texture": "uni_deepslate_tourmaline_ore",
                     "render_method": "opaque"
                 }
             },
             "minecraft:unit_cube": {},
-            "minecraft:loot": "loot_tables/tourmaline_ore.json"
+            "minecraft:loot": "loot_tables/tourmaline/tourmaline_ore.json"
         }
     }
 }

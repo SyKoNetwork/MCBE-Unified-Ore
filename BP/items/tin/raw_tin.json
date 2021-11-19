@@ -2,15 +2,15 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "ore-uni:white_diamond_fragment",
+			"identifier": "ore-uni:raw_tin",
 			"category": "nature"
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "ore-uni_white_diamond_fragment"
+				"texture": "ore-uni_raw_tin"
 			},
 			"minecraft:display_name": {
-				"value": "White Diamond Fragment"
+				"value": "Raw Tin"
 			}
 		}
 	}

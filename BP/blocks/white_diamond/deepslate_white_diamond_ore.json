@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ore-uni:deepslate_topaz_ore"
+			"identifier": "ore-uni:deepslate_white_diamond_ore"
 		},
 		"components": {
 			"minecraft:creative_category": {
@@ -13,12 +13,12 @@
 			"minecraft:explosion_resistance": 1,
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "uni_deepslate_topaz_ore",
+					"texture": "uni_deepslate_white_diamond_ore",
 					"render_method": "opaque"
 				}
 			},
 			"minecraft:unit_cube": {},
-			"minecraft:loot": "loot_tables/deepslate_topaz_ore.json"
+			"minecraft:loot": "loot_tables/white_diamond/white_diamond_ore.json"
 		}
 	}
 }

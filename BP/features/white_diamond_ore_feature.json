@@ -2,13 +2,13 @@
 	"format_version": "1.17.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "ore-uni:tin_ore_feature"
+			"identifier": "ore-uni:white_diamond_ore_feature"
 		},
-		"count": 6,
+		"count": 2,
 		"replace_rules": [
 			{
 				"places_block": {
-					"name": "ore-uni:tin_ore",
+					"name": "ore-uni:white_diamond_ore",
 					"states": {}
 				},
 				"may_replace": [
@@ -40,7 +40,7 @@
 			},
 			{
 				"places_block": {
-					"name": "ore-uni:deepslate_tin_ore",
+					"name": "ore-uni:deepslate_white_diamond_ore",
 					"states": {}
 				},
 				"may_replace": [
