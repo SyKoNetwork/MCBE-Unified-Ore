@@ -40,7 +40,7 @@ BP/blocks/"ore_name"/deep_slate_"ore_name".json
 BP/blocks/"ore_name"/"ore_name".json
 BP/blocks/"ore_name"/raw_"ore_name"_block.json
 
-BP/faeture_rules/overworld_underground_"ore_name"_ore.json
+BP/feaure_rules/overworld_underground_"ore_name"_ore.json
 
 BP/feature/"ore_name"_feature.json
 
