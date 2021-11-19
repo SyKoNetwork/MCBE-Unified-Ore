@@ -72,7 +72,6 @@ ore-uni:raw_"ore_name"_block
 
 ore-uni:raw_"ore_name"
 ore-uni:"ore_name"_ingot
-```
 
 ### Copyright
 
