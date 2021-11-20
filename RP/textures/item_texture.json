@@ -14,6 +14,12 @@
 		},
 		"ore-uni_nickel_ingot": {
 			"textures": "textures/items/nickel/nickel_ingot"
+		},
+		"ore-uni_raw_silver": {
+			"textures": "textures/items/silver/raw_silver"
+		},
+		"ore-uni_silver_ingot": {
+			"textures": "textures/items/silver/silver_ingot"
 		}
 	}
 }

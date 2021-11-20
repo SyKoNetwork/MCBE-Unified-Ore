@@ -31,6 +31,12 @@
 		},
 		"uni_deepslate_nickel_ore": {
 			"textures": "textures/blocks/nickel/deepslate_nickel_ore"
+		},
+		"uni_silver_ore": {
+			"textures": "textures/blocks/silver/silver_ore"
+		},
+		"uni_deepslate_silver_ore": {
+			"textures": "textures/blocks/silver/deepslate_silver_ore"
 		}
 	}
 }
