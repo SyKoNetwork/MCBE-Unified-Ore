@@ -1,0 +1,17 @@
+{
+	"texture_data": {
+
+		//by {{AUTHOR}}
+		
+		"ore-uni_raw_{{IDENTIFIER}}": {
+			"textures": "textures/items/{{IDENTIFIER}}/raw_{{IDENTIFIER}}"
+		},
+		"ore-uni_{{IDENTIFIER}}_ingot": {
+			"textures": "textures/items/{{IDENTIFIER}}/{{IDENTIFIER}}_ingot"
+		},
+		"ore-uni_{{IDENTIFIER}}_nugget": {
+			"textures": "textures/items/{{IDENTIFIER}}/{{IDENTIFIER}}_nugget"
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+{
+    //by {{AUTHOR}}
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_{{IDENTIFIER}}"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_{{IDENTIFIER}}",
+		"output": "ore-uni:{{IDENTIFIER}}_ingot"
+	}
+}

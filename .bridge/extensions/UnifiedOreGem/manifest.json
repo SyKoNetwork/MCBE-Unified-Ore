@@ -1,0 +1,13 @@
+{
+	"author": "Syko Network (Eko)",
+	"name": "Unified Gem Ores Preset",
+	"version": "1.0.0",
+	"id": "baa53962-4f8a-4023-903a-d873a0555427",
+	"description": "Allows you to easily create ores!",
+	"api_version": 2,
+	"target": "v2",
+	"tags": [
+		"Presets"
+	],
+	"releaseTimestamp": 1627412426905
+}

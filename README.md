@@ -3,16 +3,11 @@
 This project aims to create an open sorce repository for custom ores in Minecraft Bedrock!
 
 >  ## Added ores  
-> - [X] Tin  
-> - [X] Deepslate Tin  
+> - [X] Tin 
 > - [X] White Diamond
-> - [X] Deepslate White Diamond
 > - [X] Topaz
-> - [X] Deepslate Topaz
 > - [X] Tourmaline
-> - [X] Deepslate Tourmaline
 > - [X] Nickel
-> - [X] Deepslate Nickel
 
 ## General Discussion
 
@@ -24,9 +19,15 @@ Thank you for considering to contribute to the **"MCBE-Unified-Ore"** project!
 
 ## Starting development
 
-We recommend **"bridge."** to edit the project files.
+We strongly recommend **"bridge."** to edit the project files as their are presets avilable and a compiler built in to test out the addon in game.
+
+## Presets
+
+With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack!
 
 ## Code Rules
+
+Please be sure to put your name at the top of any code you create so we are able to track who has made what, if you are using the presets this is automatically done for you.
 
 ### Verified as working
 
@@ -37,7 +38,7 @@ functionality at least once and didn't encounter unexpected behaviour.
 
 #### General
 
-We request that all texture/file submissions be nested in a folder with the name of the ore you are submitting
+We request that all texture/file submissions be nested in a folder with the name of the ore you are submitting.
 
 ```
 BP/blocks/"ore_name"/deep_slate_"ore_name".json
@@ -57,8 +58,8 @@ BP/recipes/"ore_name"/furnace_"ore_name".json
 BP/recipes/"ore_name"/furnace_raw_"ore_name".json
 BP/recipes/"ore_name"/crafting_raw_"ore_name"_block.json
 
-RP/textures/blocks/"ore_name"/deepslate_"ore_name"
-RP/textures/blocks/"ore_name"/"ore_name"
+RP/textures/blocks/"ore_name"/deepslate_"ore_name"_ore
+RP/textures/blocks/"ore_name"/"ore_name"_ore
 RP/textures/blocks/"ore_name"/"ore_name"_block
 
 RP/textures/items/"ore_name"/raw_"ore_name"

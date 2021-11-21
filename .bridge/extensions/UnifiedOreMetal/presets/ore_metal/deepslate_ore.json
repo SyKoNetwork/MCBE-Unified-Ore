@@ -1,0 +1,25 @@
+{
+    //by {{AUTHOR}}
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ore-uni:deepslate_{{IDENTIFIER}}_ore"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": {{DEEPSLATE_EXPLOSION_RESISTANCE}},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "uni_deepslate_{{IDENTIFIER}}_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:loot": "loot_tables/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json"
+		}
+	}
+}
