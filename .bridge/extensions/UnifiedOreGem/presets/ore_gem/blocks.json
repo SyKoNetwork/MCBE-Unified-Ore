@@ -1,0 +1,15 @@
+{
+   
+   //by {{AUTHOR}}
+
+   "ore-uni:{{IDENTIFIER}}_ore": {
+      "sound": "stone"
+   },
+   "ore-uni:deepslate_{{IDENTIFIER}}_ore": {
+      "sound": "deepslate"
+   },
+   "ore-uni:{{IDENTIFIER}}_block": {
+      "sound": "metal"
+   }
+
+}

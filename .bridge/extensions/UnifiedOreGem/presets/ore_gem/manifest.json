@@ -1,0 +1,311 @@
+{
+  "name": "ABC Unified Gem Ore",
+  "icon": "mdi-pickaxe",
+  "description": "Creates Custom Ores",
+  "category": "fileType.block",
+  "targetVersion": [
+    ">=",
+    "1.17.0"
+  ],
+  "packTypes": [
+    "behaviorPack",
+    "resourcePack"
+  ],
+  "fields": [
+    [
+      "Your Username",
+      "AUTHOR",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ],
+    [
+      "Ore Name (Lowercase)",
+      "IDENTIFIER",
+      {
+        "validate": [
+          "required",
+          "alphanumeric",
+          "lowercase"
+        ]
+      }
+    ],
+    [
+      "Display Name",
+      "IDENTIFIER_NAME",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ],
+    [
+      "Drop Min",
+      "DROP_AMT_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Drop Max",
+      "DROP_AMT_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Min",
+      "FORTUNE_ROLLS_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Max",
+      "FORTUNE_ROLLS_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
+      "Height Min",
+      "Y_LEVEL_MIN",
+      {
+        "type": "numberInput",
+        "min": -64,
+        "max": 320,
+        "step": 1
+      }
+    ],
+    [
+      "Height Max",
+      "Y_LEVEL_MAX",
+      {
+        "type": "numberInput",
+        "min": -64,
+        "max": 320,
+        "step": 1
+      }
+    ],
+    [
+      "Ore Per Blob",
+      "BLOB_COUNT",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 32,
+        "step": 1
+      }
+    ],
+    [
+      "Explosion Resistance",
+      "EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 12,
+        "step": 1
+      }
+    ],
+    [
+      "Deepslate Explosion Resistance",
+      "DEEPSLATE_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 12,
+        "step": 1
+      }
+    ],
+    [
+      "Rarity",
+      "ITERATIONS",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 32,
+        "step": 1
+      }
+    ]
+  ],
+  "createFiles": [
+    [
+      "crafting_block.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_block_gem.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_block_{{IDENTIFIER}}_gem.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "furnace_deepslate_ore.json",
+      "BP/recipes/{{IDENTIFIER}}/furnace_deepslate_{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "furnace_ore.json",
+      "BP/recipes/{{IDENTIFIER}}/furnace_{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "deepslate_ore.json",
+      "BP/blocks/{{IDENTIFIER}}/deepslate_{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "DEEPSLATE_EXPLOSION_RESISTANCE"
+        ]
+      }
+    ],
+    [
+      "ore.json",
+      "BP/blocks/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "EXPLOSION_RESISTANCE"
+        ]
+      }
+    ],
+    [
+      "block.json",
+      "BP/blocks/{{IDENTIFIER}}/{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "EXPLOSION_RESISTANCE"
+        ]
+      }
+    ],
+    [
+      "gem.json",
+      "BP/items/{{IDENTIFIER}}/{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "ore_feature.json",
+      "BP/features/{{IDENTIFIER}}_ore_feature.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "BLOB_COUNT"
+        ]
+      }
+    ],
+    [
+      "overworld_underground_ore.json",
+      "BP/feature_rules/overworld_underground_{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "Y_LEVEL_MIN",
+          "Y_LEVEL_MAX",
+          "ITERATIONS"
+        ]
+      }
+    ],
+    [
+      "ore_loot.json",
+      "BP/loot_tables/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "DROP_AMT_MIN",
+          "DROP_AMT_MAX",
+          "FORTUNE_ROLLS_MIN",
+          "FORTUNE_ROLLS_MAX"
+        ]
+      }
+    ]
+  ],
+  "expandFiles": [
+    [
+      "en_US.lang",
+      "RP/texts/en_US.lang",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "IDENTIFIER_NAME"
+        ]
+      }
+    ],
+    [
+      "blocks.json",
+      "RP/blocks.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "terrain_texture.json",
+      "RP/textures/terrain_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "item_texture.json",
+      "RP/textures/item_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ]
+  ]
+}
