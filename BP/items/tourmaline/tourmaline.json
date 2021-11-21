@@ -3,14 +3,11 @@
     "minecraft:item": {
         "description": {
             "identifier": "ore-uni:tourmaline",
-            "category": "nature"
+            "category": "items"
         },
         "components": {
             "minecraft:icon": {
                 "texture": "ore-uni_tourmaline"
-            },
-            "minecraft:display_name": {
-                "value": "Tourmaline"
             }
         }
     }

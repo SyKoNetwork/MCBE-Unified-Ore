@@ -3,14 +3,11 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "ore-uni:white_diamond",
-			"category": "nature"
+			"category": "items"
 		},
 		"components": {
 			"minecraft:icon": {
 				"texture": "ore-uni_white_diamond"
-			},
-			"minecraft:display_name": {
-				"value": "White Diamond"
 			}
 		}
 	}

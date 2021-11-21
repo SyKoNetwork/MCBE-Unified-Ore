@@ -3,17 +3,29 @@
 		"ore-uni_raw_tin": {
 			"textures": "textures/items/tin/raw_tin"
 		},
+		"ore-uni_tin_ingot": {
+			"textures": "textures/items/tin/tin_ingot"
+		},
+		"ore-uni_tin_nugget": {
+			"textures": "textures/items/tin/tin_nugget"
+		},
 		"ore-uni_white_diamond": {
 			"textures": "textures/items/white_diamond/white_diamond"
 		},
 		"ore-uni_tourmaline": {
 			"textures": "textures/items/tourmaline/tourmaline"
 		},
+		"ore-uni_opal": {
+			"textures": "textures/items/opal/opal"
+		},
 		"ore-uni_raw_nickel": {
 			"textures": "textures/items/nickel/raw_nickel"
 		},
 		"ore-uni_nickel_ingot": {
 			"textures": "textures/items/nickel/nickel_ingot"
+		},
+		"ore-uni_nickel_nugget": {
+			"textures": "textures/items/nickel/nickel_nugget"
 		}
 	}
 }

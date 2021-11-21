@@ -2,13 +2,13 @@
 	"format_version": "1.12",
 	"minecraft:recipe_furnace": {
 		"description": {
-			"identifier": "ore-uni:furnace_raw_nickel"
+			"identifier": "ore-uni:furnace_raw_nickel_block"
 		},
 		"tags": [
 			"furnace",
 			"blast_furnace"
 		],
-		"input": "ore-uni:raw_nickel",
-		"output": "ore-uni:nickel_ingot"
+		"input": "ore-uni:raw_nickel_block",
+		"output": "ore-uni:nickel_block"
 	}
 }

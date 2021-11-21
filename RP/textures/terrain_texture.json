@@ -1,12 +1,20 @@
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
+	"padding": 0,
+	"num_mip_levels": 0,
 	"texture_data": {
 		"uni_tin_ore": {
 			"textures": "textures/blocks/tin/tin_ore"
 		},
 		"uni_deepslate_tin_ore": {
 			"textures": "textures/blocks/tin/deepslate_tin_ore"
+		},
+		"uni_raw_tin_block": {
+			"textures": "textures/blocks/tin/raw_tin_block"
+		},
+		"uni_tin_block": {
+			"textures": "textures/blocks/tin/tin_block"
 		},
 		"uni_white_diamond_ore": {
 			"textures": "textures/blocks/white_diamond/white_diamond_ore"
@@ -26,11 +34,23 @@
 		"uni_deepslate_tourmaline_ore": {
 			"textures": "textures/blocks/tourmaline/deepslate_tourmaline_ore"
 		},
+		"uni_opal_ore": {
+			"textures": "textures/blocks/opal/opal_ore"
+		},
+		"uni_deepslate_opal_ore": {
+			"textures": "textures/blocks/opal/deepslate_opal_ore"
+		},
 		"uni_nickel_ore": {
 			"textures": "textures/blocks/nickel/nickel_ore"
 		},
 		"uni_deepslate_nickel_ore": {
 			"textures": "textures/blocks/nickel/deepslate_nickel_ore"
+		},
+		"uni_raw_nickel_block": {
+			"textures": "textures/blocks/nickel/raw_nickel_block"
+		},
+		"uni_nickel_block": {
+			"textures": "textures/blocks/nickel/nickel_block"
 		}
 	}
 }
