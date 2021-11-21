@@ -1,8 +1,2 @@
 {
-	"ore-uni:test_ore": {
-		"sound": "stone"
-	},
-	"ore-uni:deepslate_test_ore": {
-		"sound": "deepslate"
-	}
 }
