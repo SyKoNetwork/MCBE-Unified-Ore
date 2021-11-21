@@ -15,6 +15,9 @@
 		"ore-uni_tourmaline": {
 			"textures": "textures/items/tourmaline/tourmaline"
 		},
+		"ore-uni_topaz": {
+			"textures": "textures/items/topaz/topaz"
+		},
 		"ore-uni_opal": {
 			"textures": "textures/items/opal/opal"
 		},
@@ -26,6 +29,9 @@
 		},
 		"ore-uni_nickel_nugget": {
 			"textures": "textures/items/nickel/nickel_nugget"
+		},
+		"ore-uni_opal": {
+			"textures": "textures/items/opal/opal"
 		}
 	}
 }

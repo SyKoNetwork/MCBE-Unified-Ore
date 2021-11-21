@@ -1,25 +1,24 @@
 {
-	//by SyKo
+	//by Chikorita Lover
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ore-uni:topaz_ore"
+			"identifier": "ore-uni:tourmaline_block"
 		},
 		"components": {
 			"minecraft:creative_category": {
-				"category": "nature",
-				"group": "itemGroup.name.ore"
+				"category": "construction",
+				"group": "itemGroup.name.sndstone"
 			},
 			"minecraft:destroy_time": 1,
-			"minecraft:explosion_resistance": 3,
+			"minecraft:explosion_resistance": 1,
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "uni_topaz_ore",
+					"texture": "uni_tourmaline_block",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:unit_cube": {},
-			"minecraft:loot": "loot_tables/topaz/topaz_ore.json"
+			"minecraft:unit_cube": {}
 		}
 	}
 }

@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.ore"
+            },
             "minecraft:icon": {
                 "texture": "ore-uni_nickel_ingot"
             }

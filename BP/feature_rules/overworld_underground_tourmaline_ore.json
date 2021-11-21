@@ -1,53 +1,54 @@
 {
-    "format_version": "1.13.0",
-    "minecraft:feature_rules": {
-        "description": {
-            "identifier": "ore-uni:overworld_underground_tourmaline_ore",
-            "places_feature": "ore-uni:tourmaline_ore_feature"
-        },
-        "conditions": {
-            "placement_pass": "underground_pass",
-            "minecraft:biome_filter": [
-                {
-                    "any_of": [
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "==",
-                            "value": "overworld"
-                        },
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "==",
-                            "value": "overworld_generation"
-                        }
-                    ]
-                }
-            ]
-        },
-        "distribution": {
-            "iterations": 9,
-            "coordinate_eval_order": "zyx",
-            "x": {
-                "distribution": "uniform",
-                "extent": [
-                    0,
-                    16
-                ]
-            },
-            "y": {
-                "distribution": "uniform",
-                "extent": [
-                    0,
-                    32
-                ]
-            },
-            "z": {
-                "distribution": "uniform",
-                "extent": [
-                    0,
-                    16
-                ]
-            }
-        }
-    }
+	//by Chikorita Lover
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ore-uni:overworld_underground_tourmaline_ore",
+			"places_feature": "ore-uni:tourmaline_ore_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld_generation"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 12,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-32,
+					42
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
 }

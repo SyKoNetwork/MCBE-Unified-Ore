@@ -1,14 +1,18 @@
 {
-    "format_version": "1.16.100",
-    "minecraft:item": {
-        "description": {
-            "identifier": "ore-uni:opal",
-            "category": "items"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "ore-uni_opal"
-            }
-        }
-    }
+	//by SyKo
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ore-uni:opal",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ore"
+			},
+			"minecraft:icon": {
+				"texture": "ore-uni_opal"
+			}
+		}
+	}
 }

@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "ore-uni:raw_tin",
+			"identifier": "ore-uni:nickel_nugget",
 			"category": "items"
 		},
 		"components": {
@@ -10,7 +10,7 @@
 				"parent": "itemGroup.name.ore"
 			},
 			"minecraft:icon": {
-				"texture": "ore-uni_raw_tin"
+				"texture": "ore-uni_nickel_nugget"
 			}
 		}
 	}

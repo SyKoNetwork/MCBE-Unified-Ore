@@ -1,10 +1,8 @@
 {
+	//by SyKo
 	"pools": [
 		{
-			"rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"rolls": 1,
 			"conditions": [
 				{
 					"condition": "match_tool",
@@ -17,7 +15,10 @@
 					"weight": 1,
 					"type": "item",
 					"name": "ore-uni:white_diamond",
-					"count": 1,
+					"count": {
+						"min": 1,
+						"max": 2
+					},
 					"pools": [
 						{
 							"rolls": {
@@ -47,6 +48,34 @@
 																"min": 1,
 																"max": 1
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -69,6 +98,34 @@
 															"level": {
 																"min": 2,
 																"max": 2
+															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
 															}
 														}
 													]
@@ -93,6 +150,34 @@
 																"min": 3,
 																"max": 3
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -107,10 +192,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"rolls": 1,
 			"conditions": [
 				{
 					"condition": "match_tool",
@@ -123,7 +205,10 @@
 					"weight": 1,
 					"type": "item",
 					"name": "ore-uni:white_diamond",
-					"count": 1,
+					"count": {
+						"min": 1,
+						"max": 2
+					},
 					"pools": [
 						{
 							"rolls": {
@@ -157,6 +242,34 @@
 																"min": 1,
 																"max": 1
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -179,6 +292,34 @@
 															"level": {
 																"min": 2,
 																"max": 2
+															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
 															}
 														}
 													]
@@ -203,6 +344,34 @@
 																"min": 3,
 																"max": 3
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -217,10 +386,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"rolls": 1,
 			"conditions": [
 				{
 					"condition": "match_tool",
@@ -233,7 +399,10 @@
 					"weight": 1,
 					"type": "item",
 					"name": "ore-uni:white_diamond",
-					"count": 1,
+					"count": {
+						"min": 1,
+						"max": 2
+					},
 					"pools": [
 						{
 							"rolls": {
@@ -263,6 +432,34 @@
 																"min": 1,
 																"max": 1
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -285,6 +482,34 @@
 															"level": {
 																"min": 2,
 																"max": 2
+															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
 															}
 														}
 													]
@@ -309,6 +534,34 @@
 																"min": 3,
 																"max": 3
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -323,10 +576,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"rolls": 1,
 			"conditions": [
 				{
 					"condition": "match_tool",
@@ -339,7 +589,10 @@
 					"weight": 1,
 					"type": "item",
 					"name": "ore-uni:white_diamond",
-					"count": 1,
+					"count": {
+						"min": 1,
+						"max": 2
+					},
 					"pools": [
 						{
 							"rolls": {
@@ -369,6 +622,34 @@
 																"min": 1,
 																"max": 1
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -392,6 +673,34 @@
 																"min": 2,
 																"max": 2
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -414,6 +723,34 @@
 															"level": {
 																"min": 3,
 																"max": 3
+															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
 															}
 														}
 													]
@@ -429,10 +766,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"rolls": 1,
 			"conditions": [
 				{
 					"condition": "match_tool",
@@ -445,7 +779,10 @@
 					"weight": 1,
 					"type": "item",
 					"name": "ore-uni:white_diamond",
-					"count": 1,
+					"count": {
+						"min": 1,
+						"max": 2
+					},
 					"pools": [
 						{
 							"rolls": {
@@ -475,6 +812,34 @@
 																"min": 1,
 																"max": 1
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -498,6 +863,34 @@
 																"min": 2,
 																"max": 2
 															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
 														}
 													]
 												}
@@ -520,6 +913,34 @@
 															"level": {
 																"min": 3,
 																"max": 3
+															}
+														},
+														{
+															"enchantment": "efficiency",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "mending",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "vanishing_curse",
+															"level": {
+																"min": 0,
+																"max": 999
+															}
+														},
+														{
+															"enchantment": "unbreaking",
+															"level": {
+																"min": 0,
+																"max": 999
 															}
 														}
 													]

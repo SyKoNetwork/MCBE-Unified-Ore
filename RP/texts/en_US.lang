@@ -7,15 +7,6 @@ tile.ore-uni:tin_block.name=Tin Block
 item.ore-uni:raw_tin=Raw Tin
 item.ore-uni:tin_ingot=Tin Ingot
 item.ore-uni:tin_nugget=Tin Nugget
-tile.ore-uni:deepslate_topaz_ore.name=Deepslate Topaz Ore
-tile.ore-uni:topaz_ore.name=Topaz Ore
-item.ore-uni:topaz=Topaz
-tile.ore-uni:deepslate_white_diamond_ore.name=Deepslate White Diamond Ore
-tile.ore-uni:white_diamond_ore.name=White Diamond Ore
-item.ore-uni:white_diamond=White Diamond
-tile.ore-uni:deepslate_tourmaline_ore.name=Deepslate Tourmaline Ore
-tile.ore-uni:tourmaline_ore.name=Tourmaline Ore
-item.ore-uni:tourmaline=Tourmaline
 tile.ore-uni:deepslate_opal_ore.name=Deepslate Opal Ore
 tile.ore-uni:opal_ore.name=Opal Ore
 item.ore-uni:opal=Opal
@@ -26,6 +17,26 @@ tile.ore-uni:nickel_block.name=Nickel Block
 item.ore-uni:raw_nickel=Raw Nickel
 item.ore-uni:nickel_ingot=Nickel Ingot
 item.ore-uni:nickel_nugget=Nickel Nugget
-tile.ore-uni:deepslate_opal_ore=Deepslate Opal Ore
-tile.ore-uni:opal_ore=Opal Ore
+##by SyKo
+tile.ore-uni:deepslate_topaz_ore.name=Deepslate Topaz Ore
+tile.ore-uni:topaz_ore.name=Topaz Ore
+tile.ore-uni:topaz_block.name=Topaz Block
+item.ore-uni:topaz=Topaz
+
+##by SyKo
+tile.ore-uni:deepslate_white_diamond_ore.name=Deepslate White Diamond Ore
+tile.ore-uni:white_diamond_ore.name=White Diamond Ore
+tile.ore-uni:white_diamond_block.name=White Diamond Block
+item.ore-uni:white_diamond=White Diamond
+
+##by Chikorita Lover
+tile.ore-uni:deepslate_tourmaline_ore.name=Deepslate Tourmaline Ore
+tile.ore-uni:tourmaline_ore.name=Tourmaline Ore
+tile.ore-uni:tourmaline_block.name=Tourmaline Block
+item.ore-uni:tourmaline=Tourmaline
+
+##by SyKo
+tile.ore-uni:deepslate_opal_ore.name=Deepslate Opal Ore
+tile.ore-uni:opal_ore.name=Opal Ore
+tile.ore-uni:opal_block.name=Opal Block
 item.ore-uni:opal=Opal
