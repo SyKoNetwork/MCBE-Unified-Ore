@@ -1,0 +1,22 @@
+{
+    //by Eko-Byte
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_lunite_block_lunite_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:lunite_block",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "ore-uni:lunite_ingot",
+            "count": 9
+        }
+    }
+}

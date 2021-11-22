@@ -10,3 +10,11 @@ tile.ore-uni:deepslate_tourmaline_ore.name=Deepslate Tourmaline Ore
 tile.ore-uni:tourmaline_ore.name=Tourmaline Ore
 tile.ore-uni:deepslate_nickel_ore.name=Deepslate Nickel Ore
 tile.ore-uni:nickel_ore.name=Nickel Ore
+##by Eko-Byte
+tile.ore-uni:deepslate_lunite_ore.name=Deepslate Lunite Ore
+tile.ore-uni:lunite_ore.name=Lunite Ore
+tile.ore-uni:raw_lunite_block.name=Raw Lunite Block
+tile.ore-uni:lunite_block.name=Lunite Block
+item.ore-uni:lunite_ingot=Lunite Ingot
+item.ore-uni:lunite_nugget=Lunite Nugget
+item.ore-uni:raw_lunite=Raw Lunite

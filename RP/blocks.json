@@ -1,2 +1,18 @@
 {
+	"ore-uni:lunite_ore": {
+		"sound": "stone",
+		"textures": "uni_lunite_ore",
+		"isotropic": true
+	},
+	"ore-uni:deepslate_lunite_ore": {
+		"sound": "deepslate",
+		"textures": "uni_deepslate_lunite_ore",
+		"isotropic": true
+	},
+	"ore-uni:raw_lunite_block": {
+		"sound": "stone"
+	},
+	"ore-uni:lunite_block": {
+		"sound": "metal"
+	}
 }

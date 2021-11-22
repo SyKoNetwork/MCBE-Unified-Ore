@@ -31,6 +31,18 @@
 		},
 		"uni_deepslate_nickel_ore": {
 			"textures": "textures/blocks/nickel/deepslate_nickel_ore"
+		},
+		"uni_lunite_ore": {
+			"textures": "textures/blocks/lunite/lunite_ore"
+		},
+		"uni_deepslate_lunite_ore": {
+			"textures": "textures/blocks/lunite/deepslate_lunite_ore"
+		},
+		"uni_raw_lunite_block": {
+			"textures": "textures/blocks/lunite/raw_lunite_block"
+		},
+		"uni_lunite_block": {
+			"textures": "textures/blocks/lunite/lunite_block"
 		}
 	}
 }
