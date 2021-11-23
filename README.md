@@ -8,6 +8,7 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 > - [X] Topaz
 > - [X] Tourmaline
 > - [X] Nickel
+> - [X] Opal
 
 ## General Discussion
 

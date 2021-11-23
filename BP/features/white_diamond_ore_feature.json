@@ -1,10 +1,11 @@
 {
+	//by SyKo
 	"format_version": "1.17.0",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "ore-uni:white_diamond_ore_feature"
 		},
-		"count": 8,
+		"count": 4,
 		"replace_rules": [
 			{
 				"places_block": {

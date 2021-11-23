@@ -3,6 +3,12 @@
 		"ore-uni_raw_tin": {
 			"textures": "textures/items/tin/raw_tin"
 		},
+		"ore-uni_tin_ingot": {
+			"textures": "textures/items/tin/tin_ingot"
+		},
+		"ore-uni_tin_nugget": {
+			"textures": "textures/items/tin/tin_nugget"
+		},
 		"ore-uni_white_diamond": {
 			"textures": "textures/items/white_diamond/white_diamond"
 		},

@@ -1,4 +1,5 @@
 {
+	//by SyKo
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
@@ -25,7 +26,7 @@
 			]
 		},
 		"distribution": {
-			"iterations": 8,
+			"iterations": 12,
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "uniform",
@@ -37,8 +38,8 @@
 			"y": {
 				"distribution": "uniform",
 				"extent": [
-					-64,
-					50
+					-42,
+					-15
 				]
 			},
 			"z": {

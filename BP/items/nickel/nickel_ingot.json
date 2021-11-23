@@ -3,14 +3,14 @@
     "minecraft:item": {
         "description": {
             "identifier": "ore-uni:nickel_ingot",
-            "category": "nature"
+            "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.ore"
+            },
             "minecraft:icon": {
                 "texture": "ore-uni_nickel_ingot"
-            },
-            "minecraft:display_name": {
-                "value": "Nickel Ingot"
             }
         }
     }

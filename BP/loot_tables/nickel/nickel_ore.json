@@ -1,7 +1,10 @@
 {
     "pools": [
         {
-            "rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
             "conditions": [
                 {
                     "condition": "match_tool",
@@ -14,20 +17,100 @@
                     "weight": 1,
                     "type": "item",
                     "name": "ore-uni:raw_nickel",
-                    "functions": [
+                    "count": 1,
+                    "pools": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
+                            "rolls": {
+                                "min": 1,
                                 "max": 3
-                            }
+                            },
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "ore-uni:raw_nickel",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 1
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:stone_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 1,
+                                                                "max": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 2
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:stone_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 2,
+                                                                "max": 2
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 3
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:stone_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 3,
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
             "conditions": [
                 {
                     "condition": "match_tool",
@@ -40,20 +123,210 @@
                     "weight": 1,
                     "type": "item",
                     "name": "ore-uni:raw_nickel",
-                    "functions": [
+                    "count": 1,
+                    "pools": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
+                            "rolls": {
+                                "min": 1,
                                 "max": 3
-                            }
+                            },
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "ore-uni:raw_nickel",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 1
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 1
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:iron_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 1,
+                                                                "max": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 2
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:iron_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 2,
+                                                                "max": 2
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 3
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:iron_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 3,
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "item": "minecraft:golden_pickaxe",
+                    "count": 1
+                }
+            ],
+            "entries": [
+                {
+                    "weight": 1,
+                    "type": "item",
+                    "name": "ore-uni:raw_nickel",
+                    "count": 1,
+                    "pools": [
+                        {
+                            "rolls": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "ore-uni:raw_nickel",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 1
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:golden_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 1,
+                                                                "max": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 2
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:golden_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 2,
+                                                                "max": 2
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 3
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:golden_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 3,
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
             "conditions": [
                 {
                     "condition": "match_tool",
@@ -66,20 +339,100 @@
                     "weight": 1,
                     "type": "item",
                     "name": "ore-uni:raw_nickel",
-                    "functions": [
+                    "count": 1,
+                    "pools": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
+                            "rolls": {
+                                "min": 1,
                                 "max": 3
-                            }
+                            },
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "ore-uni:raw_nickel",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 1
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:diamond_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 1,
+                                                                "max": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 2
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:diamond_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 2,
+                                                                "max": 2
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 3
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:diamond_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 3,
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
             "conditions": [
                 {
                     "condition": "match_tool",
@@ -92,469 +445,90 @@
                     "weight": 1,
                     "type": "item",
                     "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:stone_pickaxe",
                     "count": 1,
-                    "enchantments": [
+                    "pools": [
                         {
-                            "enchantment": "fortune",
-                            "level": {
+                            "rolls": {
                                 "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
                                 "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:iron_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:diamond_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:netherite_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:stone_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 2,
-                                "max": 2
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:iron_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 2,
-                                "max": 2
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:diamond_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 2,
-                                "max": 2
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:netherite_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 2,
-                                "max": 2
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 3
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:stone_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 3,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 3
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:iron_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 3,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 3
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:diamond_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 3,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 3
-            },
-            "conditions": [
-                {
-                    "condition": "match_tool",
-                    "item": "minecraft:netherite_pickaxe",
-                    "count": 1,
-                    "enchantments": [
-                        {
-                            "enchantment": "fortune",
-                            "level": {
-                                "min": 3,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ],
-            "entries": [
-                {
-                    "weight": 1,
-                    "type": "item",
-                    "name": "ore-uni:raw_nickel",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
+                            },
+                            "entries": [
+                                {
+                                    "type": "item",
+                                    "name": "ore-uni:raw_nickel",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 1
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:netherite_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 1,
+                                                                "max": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 2
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:netherite_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 2,
+                                                                "max": 2
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "min": 0,
+                                                "max": 3
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "condition": "match_tool",
+                                                    "item": "minecraft:netherite_pickaxe",
+                                                    "count": 1,
+                                                    "enchantments": [
+                                                        {
+                                                            "enchantment": "fortune",
+                                                            "level": {
+                                                                "min": 3,
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

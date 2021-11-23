@@ -1,0 +1,15 @@
+{
+	//by SyKo
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_deepslate_white_diamond_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:deepslate_white_diamond_ore",
+		"output": "ore-uni:white_diamond"
+	}
+}

@@ -42,6 +42,46 @@
       }
     ],
     [
+      "Drop Min",
+      "DROP_AMT_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Drop Max",
+      "DROP_AMT_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Min",
+      "FORTUNE_ROLLS_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Max",
+      "FORTUNE_ROLLS_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
       "Height Min",
       "Y_LEVEL_MIN",
       {
@@ -298,6 +338,20 @@
           "Y_LEVEL_MIN",
           "Y_LEVEL_MAX",
           "ITERATIONS"
+        ]
+      }
+    ],
+    [
+      "ore_loot.json",
+      "BP/loot_tables/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "DROP_AMT_MIN",
+          "DROP_AMT_MAX",
+          "FORTUNE_ROLLS_MIN",
+          "FORTUNE_ROLLS_MAX"
         ]
       }
     ]

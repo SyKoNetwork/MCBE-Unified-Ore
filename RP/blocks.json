@@ -14,5 +14,41 @@
 	},
 	"ore-uni:lunite_block": {
 		"sound": "metal"
+	},
+	"ore-uni:topaz_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_topaz_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:topaz_block": {
+		"sound": "metal"
+	},
+	"ore-uni:white_diamond_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_white_diamond_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:white_diamond_block": {
+		"sound": "metal"
+	},
+	"ore-uni:tourmaline_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_tourmaline_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:tourmaline_block": {
+		"sound": "metal"
+	},
+	"ore-uni:opal_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_opal_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:opal_block": {
+		"sound": "stone"
 	}
 }

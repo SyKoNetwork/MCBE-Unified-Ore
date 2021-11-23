@@ -1,0 +1,22 @@
+{
+    //by Chikorita Lover
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_tourmaline_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:tourmaline",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "ore-uni:tourmaline_block",
+            "count": 1
+        }
+    }
+}
