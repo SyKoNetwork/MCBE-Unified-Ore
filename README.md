@@ -23,7 +23,7 @@ We strongly recommend **"bridge."** to edit the project files as their are prese
 
 ## Presets
 
-With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack!
+With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! For Loot Tables, please see the loot tables script inside of the loot_tables folder to create them!
 
 ## Code Rules
 
