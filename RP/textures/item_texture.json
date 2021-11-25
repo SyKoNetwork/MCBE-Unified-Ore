@@ -21,6 +21,9 @@
 		"ore-uni_opal": {
 			"textures": "textures/items/opal/opal"
 		},
+		"ore-uni_raw_uranium": {
+			"textures": "textures/items/uranium/raw_uranium"
+		},
 		"ore-uni_raw_nickel": {
 			"textures": "textures/items/nickel/raw_nickel"
 		},
@@ -30,8 +33,14 @@
 		"ore-uni_nickel_nugget": {
 			"textures": "textures/items/nickel/nickel_nugget"
 		},
-		"ore-uni_opal": {
-			"textures": "textures/items/opal/opal"
+		"ore-uni_raw_lunite": {
+			"textures": "textures/items/lunite/raw_lunite"
+		},
+		"ore-uni_lunite_ingot": {
+			"textures": "textures/items/lunite/lunite_ingot"
+		},
+		"ore-uni_lunite_nugget": {
+			"textures": "textures/items/lunite/lunite_nugget"
 		}
 	}
 }

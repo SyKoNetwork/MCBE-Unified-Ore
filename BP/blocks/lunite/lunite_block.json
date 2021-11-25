@@ -1,9 +1,9 @@
 {
-	//by {{AUTHOR}}
+	//by Eko-Byte
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ore-uni:raw_{{IDENTIFIER}}_block"
+			"identifier": "ore-uni:lunite_block"
 		},
 		"components": {
 			"minecraft:creative_category": {
@@ -14,7 +14,7 @@
 			"minecraft:explosion_resistance": 1,
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "uni_raw_{{IDENTIFIER}}_block",
+					"texture": "uni_lunite_block",
 					"render_method": "opaque"
 				}
 			},
