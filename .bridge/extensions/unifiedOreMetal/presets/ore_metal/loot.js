@@ -10,7 +10,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
 
 	var dropAmtMin = DROP_AMT_MIN
 	var dropAmtMax = DROP_AMT_MAX
-	var drop = `ore-uni:raw_${IDENTIFIER}`
+	var drop = IDENTIFIER
 	var fortuneRollsMin = FORTUNE_ROLLS_MIN
 	var fortuneRollsMax = FORTUNE_ROLLS_MAX 
 
