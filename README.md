@@ -27,8 +27,7 @@ We strongly recommend **"bridge."** to edit the project files as their are prese
 
 ## Presets
 
-With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! For Loot Tables, please see the loot tables script inside of the loot_tables folder to create them!
-
+With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! Please Note: The Tool Slider allows you to choose the tool and all tools higher to be able to drop loot, ex: selecting stone will allow stone pick, gold picks, iron picks, diamond picks, netherite picks to break it but not wood.
 ## Code Rules
 
 Please be sure to put your name at the top of any code you create so we are able to track who has made what, if you are using the presets this is automatically done for you.
