@@ -6,6 +6,7 @@
 			"identifier": "ore-uni:{{IDENTIFIER}}_ore_feature"
 		},
 		"count": {{BLOB_COUNT}},
+		"discard_chance_on_air_exposure": {{AIR_CHANCE}},
 		"replace_rules": [
 			{
 				"places_block": {
