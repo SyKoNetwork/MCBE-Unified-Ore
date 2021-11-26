@@ -42,22 +42,6 @@
       }
     ],
     [
-      "Select Minable Tools",
-      "TOOL",
-      {
-        "type": "selectInput",
-        "default": "IRON",
-        "options": [
-          { "text": "Wood", "value": "WOOD" },
-          { "text": "Stone", "value": "STONE" },
-          { "text": "Gold", "value": "GOLD" },
-          { "text": "Iron", "value": "IRON" },
-          { "text": "Diamond", "value": "DIAMOND" },
-          { "text": "Netherite", "value": "NETHERITE" }
-        ]
-      }
-    ],
-    [
       "Drop Min",
       "DROP_AMT_MIN",
       {
@@ -266,7 +250,20 @@
         ]
       }
     ],
-    "./loot.js"
+    [
+      "ore_loot.json",
+      "BP/loot_tables/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "DROP_AMT_MIN",
+          "DROP_AMT_MAX",
+          "FORTUNE_ROLLS_MIN",
+          "FORTUNE_ROLLS_MAX"
+        ]
+      }
+    ]
   ],
   "expandFiles": [
     [
