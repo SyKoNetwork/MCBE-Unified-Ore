@@ -3,14 +3,13 @@
 	"format_version": "1.17.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "ore-uni:opal_ore_feature"
+			"identifier": "ore-uni:zinc_ore_feature"
 		},
-		"count": 6,
-		"discard_chance_on_air_exposure": 0.8,
+		"count": 5,
 		"replace_rules": [
 			{
 				"places_block": {
-					"name": "ore-uni:opal_ore",
+					"name": "ore-uni:zinc_ore",
 					"states": {}
 				},
 				"may_replace": [
@@ -42,7 +41,7 @@
 			},
 			{
 				"places_block": {
-					"name": "ore-uni:deepslate_opal_ore",
+					"name": "ore-uni:deepslate_zinc_ore",
 					"states": {}
 				},
 				"may_replace": [

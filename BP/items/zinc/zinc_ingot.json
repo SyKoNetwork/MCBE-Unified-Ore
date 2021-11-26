@@ -1,9 +1,9 @@
 {
-	//by Eko-Byte
+    //by SyKo
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "ore-uni:lunite_ingot",
+			"identifier": "ore-uni:zinc_ingot",
 			"category": "items"
 		},
 		"components": {
@@ -11,7 +11,7 @@
 				"parent": "itemGroup.name.ore"
 			},
 			"minecraft:icon": {
-				"texture": "ore-uni_lunite_ingot"
+				"texture": "ore-uni_zinc_ingot"
 			}
 		}
 	}

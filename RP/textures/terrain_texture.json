@@ -75,6 +75,30 @@
 		},
 		"uni_lunite_block": {
 			"textures": "textures/blocks/lunite/lunite_block"
+		},
+		"uni_uranium_ore": {
+			"textures": "textures/blocks/uranium/uranium_ore"
+		},
+		"uni_deepslate_uranium_ore": {
+			"textures": "textures/blocks/uranium/deepslate_uranium_ore"
+		},
+		"uni_raw_uranium_block": {
+			"textures": "textures/blocks/uranium/raw_uranium_block"
+		},
+		"uni_uranium_block": {
+			"textures": "textures/blocks/uranium/uranium_block"
+		},
+		"uni_zinc_ore": {
+			"textures": "textures/blocks/zinc/zinc_ore"
+		},
+		"uni_deepslate_zinc_ore": {
+			"textures": "textures/blocks/zinc/deepslate_zinc_ore"
+		},
+		"uni_raw_zinc_block": {
+			"textures": "textures/blocks/zinc/raw_zinc_block"
+		},
+		"uni_zinc_block": {
+			"textures": "textures/blocks/zinc/zinc_block"
 		}
 	}
 }

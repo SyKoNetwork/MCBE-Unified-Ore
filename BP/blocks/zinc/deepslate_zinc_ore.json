@@ -1,9 +1,9 @@
 {
-	//by Eko-Byte
+    //by SyKo
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ore-uni:deepslate_lunite_ore"
+			"identifier": "ore-uni:deepslate_zinc_ore"
 		},
 		"components": {
 			"minecraft:creative_category": {
@@ -12,7 +12,14 @@
 			},
 			"minecraft:destroy_time": 1.5,
 			"minecraft:explosion_resistance": 4,
-			"minecraft:loot": "loot_tables/lunite/lunite_ore.json"
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "uni_deepslate_zinc_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:loot": "loot_tables/zinc/zinc_ore.json"
 		}
 	}
 }

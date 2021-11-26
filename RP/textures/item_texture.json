@@ -41,6 +41,21 @@
 		},
 		"ore-uni_lunite_nugget": {
 			"textures": "textures/items/lunite/lunite_nugget"
+		},
+		"ore-uni_uranium_ingot": {
+			"textures": "textures/items/uranium/uranium_ingot"
+		},
+		"ore-uni_uranium_nugget": {
+			"textures": "textures/items/uranium/uranium_nugget"
+		},
+		"ore-uni_raw_zinc": {
+			"textures": "textures/items/zinc/raw_zinc"
+		},
+		"ore-uni_zinc_ingot": {
+			"textures": "textures/items/zinc/zinc_ingot"
+		},
+		"ore-uni_zinc_nugget": {
+			"textures": "textures/items/zinc/zinc_nugget"
 		}
 	}
 }

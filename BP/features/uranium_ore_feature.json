@@ -1,16 +1,16 @@
 {
-	//by SyKo
-	"format_version": "1.17.0",
+	//by RageTheFox
+	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "ore-uni:opal_ore_feature"
+			"identifier": "ore-uni:uranium_ore_feature"
 		},
-		"count": 6,
-		"discard_chance_on_air_exposure": 0.8,
+		"count": 3,
+		"discard_chance_on_air_exposure": 0.3,
 		"replace_rules": [
 			{
 				"places_block": {
-					"name": "ore-uni:opal_ore",
+					"name": "ore-uni:uranium_ore",
 					"states": {}
 				},
 				"may_replace": [
@@ -42,7 +42,7 @@
 			},
 			{
 				"places_block": {
-					"name": "ore-uni:deepslate_opal_ore",
+					"name": "ore-uni:deepslate_uranium_ore",
 					"states": {}
 				},
 				"may_replace": [

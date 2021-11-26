@@ -1,9 +1,9 @@
 {
-	//by SyKo
+	//by RageTheFox
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "ore-uni:uranium",
+			"identifier": "ore-uni:uranium_ingot",
 			"category": "items"
 		},
 		"components": {
@@ -11,7 +11,7 @@
 				"parent": "itemGroup.name.ore"
 			},
 			"minecraft:icon": {
-				"texture": "ore-uni_raw_uranium"
+				"texture": "ore-uni_uranium_ingot"
 			}
 		}
 	}

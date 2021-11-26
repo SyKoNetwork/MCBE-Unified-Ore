@@ -1,0 +1,22 @@
+{
+    //by RageTheFox
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_uranium_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:uranium_ingot",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "ore-uni:uranium_block",
+            "count": 1
+        }
+    }
+}

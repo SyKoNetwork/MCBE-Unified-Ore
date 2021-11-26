@@ -50,5 +50,29 @@
 	},
 	"ore-uni:opal_block": {
 		"sound": "stone"
+	},
+	"ore-uni:uranium_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_uranium_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:raw_uranium_block": {
+		"sound": "stone"
+	},
+	"ore-uni:uranium_block": {
+		"sound": "metal"
+	},
+	"ore-uni:zinc_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_zinc_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:raw_zinc_block": {
+		"sound": "stone"
+	},
+	"ore-uni:zinc_block": {
+		"sound": "metal"
 	}
 }
