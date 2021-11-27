@@ -1,0 +1,15 @@
+{
+    //by RageTheFox
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_uranium"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_uranium",
+		"output": "ore-uni:uranium_ingot"
+	}
+}

@@ -1,0 +1,5 @@
+##by {{AUTHOR}}
+tile.ore-uni:deepslate_{{IDENTIFIER}}_ore.name=Deepslate {{IDENTIFIER_NAME}} Ore
+tile.ore-uni:{{IDENTIFIER}}_ore.name={{IDENTIFIER_NAME}} Ore
+tile.ore-uni:{{IDENTIFIER}}_block.name={{IDENTIFIER_NAME}} Block
+item.ore-uni:{{IDENTIFIER}}={{IDENTIFIER_NAME}}

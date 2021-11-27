@@ -1,0 +1,13 @@
+{
+	"author": "Syko Network (Eko)",
+	"name": "Unified Metal Ores Preset",
+	"version": "1.0.0",
+	"id": "ac2ccdae-f9ae-46fd-a7a6-99356db81018",
+	"description": "Allows you to easily create ores!",
+	"api_version": 2,
+	"target": "v2",
+	"tags": [
+		"Presets"
+	],
+	"releaseTimestamp": 1627412426905
+}

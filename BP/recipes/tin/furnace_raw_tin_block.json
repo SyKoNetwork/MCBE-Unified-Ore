@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_tin_block"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_tin_block",
+		"output": "ore-uni:tin_block"
+	}
+}

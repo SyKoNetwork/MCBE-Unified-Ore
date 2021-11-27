@@ -1,0 +1,15 @@
+{
+	//by Chikorita Lover
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_deepslate_tourmaline_ore"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:deepslate_tourmaline_ore",
+		"output": "ore-uni:tourmaline"
+	}
+}

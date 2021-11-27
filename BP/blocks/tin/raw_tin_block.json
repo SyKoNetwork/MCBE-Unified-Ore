@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ore-uni:raw_tin_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "uni_raw_tin_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {}
+		}
+	}
+}

@@ -1,4 +1,5 @@
 {
+	//by SyKo
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
@@ -9,8 +10,8 @@
 				"category": "nature",
 				"group": "itemGroup.name.ore"
 			},
-			"minecraft:destroy_time": 1,
-			"minecraft:explosion_resistance": 1,
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 4,
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "uni_deepslate_topaz_ore",
@@ -18,7 +19,7 @@
 				}
 			},
 			"minecraft:unit_cube": {},
-			"minecraft:loot": "loot_tables/topaz/deepslate_topaz_ore.json"
+			"minecraft:loot": "loot_tables/topaz/topaz_ore.json"
 		}
 	}
 }

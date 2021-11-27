@@ -3,14 +3,14 @@
     "minecraft:item": {
         "description": {
             "identifier": "ore-uni:raw_nickel",
-            "category": "nature"
+            "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.ore"
+            },
             "minecraft:icon": {
                 "texture": "ore-uni_raw_nickel"
-            },
-            "minecraft:display_name": {
-                "value": "Raw Nickel"
             }
         }
     }

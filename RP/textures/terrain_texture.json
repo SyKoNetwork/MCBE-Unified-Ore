@@ -1,6 +1,8 @@
 {
 	"resource_pack_name": "vanilla",
 	"texture_name": "atlas.terrain",
+	"padding": 0,
+	"num_mip_levels": 0,
 	"texture_data": {
 		"uni_tin_ore": {
 			"textures": "textures/blocks/tin/tin_ore"
@@ -8,11 +10,20 @@
 		"uni_deepslate_tin_ore": {
 			"textures": "textures/blocks/tin/deepslate_tin_ore"
 		},
+		"uni_raw_tin_block": {
+			"textures": "textures/blocks/tin/raw_tin_block"
+		},
+		"uni_tin_block": {
+			"textures": "textures/blocks/tin/tin_block"
+		},
 		"uni_white_diamond_ore": {
 			"textures": "textures/blocks/white_diamond/white_diamond_ore"
 		},
 		"uni_deepslate_white_diamond_ore": {
 			"textures": "textures/blocks/white_diamond/deepslate_white_diamond_ore"
+		},
+		"uni_white_diamond_block": {
+			"textures": "textures/blocks/white_diamond/white_diamond_block"
 		},
 		"uni_topaz_ore": {
 			"textures": "textures/blocks/topaz/topaz_ore"
@@ -20,17 +31,74 @@
 		"uni_deepslate_topaz_ore": {
 			"textures": "textures/blocks/topaz/deepslate_topaz_ore"
 		},
+		"uni_topaz_block": {
+			"textures": "textures/blocks/topaz/topaz_block"
+		},
 		"uni_tourmaline_ore": {
 			"textures": "textures/blocks/tourmaline/tourmaline_ore"
 		},
 		"uni_deepslate_tourmaline_ore": {
 			"textures": "textures/blocks/tourmaline/deepslate_tourmaline_ore"
 		},
+		"uni_tourmaline_block": {
+			"textures": "textures/blocks/tourmaline/tourmaline_block"
+		},
+		"uni_opal_ore": {
+			"textures": "textures/blocks/opal/opal_ore"
+		},
+		"uni_deepslate_opal_ore": {
+			"textures": "textures/blocks/opal/deepslate_opal_ore"
+		},
+		"uni_opal_block": {
+			"textures": "textures/blocks/opal/opal_block"
+		},
 		"uni_nickel_ore": {
 			"textures": "textures/blocks/nickel/nickel_ore"
 		},
 		"uni_deepslate_nickel_ore": {
 			"textures": "textures/blocks/nickel/deepslate_nickel_ore"
+		},
+		"uni_raw_nickel_block": {
+			"textures": "textures/blocks/nickel/raw_nickel_block"
+		},
+		"uni_nickel_block": {
+			"textures": "textures/blocks/nickel/nickel_block"
+		},
+		"uni_lunite_ore": {
+			"textures": "textures/blocks/lunite/lunite_ore"
+		},
+		"uni_deepslate_lunite_ore": {
+			"textures": "textures/blocks/lunite/deepslate_lunite_ore"
+		},
+		"uni_raw_lunite_block": {
+			"textures": "textures/blocks/lunite/raw_lunite_block"
+		},
+		"uni_lunite_block": {
+			"textures": "textures/blocks/lunite/lunite_block"
+		},
+		"uni_uranium_ore": {
+			"textures": "textures/blocks/uranium/uranium_ore"
+		},
+		"uni_deepslate_uranium_ore": {
+			"textures": "textures/blocks/uranium/deepslate_uranium_ore"
+		},
+		"uni_raw_uranium_block": {
+			"textures": "textures/blocks/uranium/raw_uranium_block"
+		},
+		"uni_uranium_block": {
+			"textures": "textures/blocks/uranium/uranium_block"
+		},
+		"uni_zinc_ore": {
+			"textures": "textures/blocks/zinc/zinc_ore"
+		},
+		"uni_deepslate_zinc_ore": {
+			"textures": "textures/blocks/zinc/deepslate_zinc_ore"
+		},
+		"uni_raw_zinc_block": {
+			"textures": "textures/blocks/zinc/raw_zinc_block"
+		},
+		"uni_zinc_block": {
+			"textures": "textures/blocks/zinc/zinc_block"
 		}
 	}
 }

@@ -1,0 +1,15 @@
+{
+	//by Eko-Byte
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_lunite_block"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_lunite_block",
+		"output": "ore-uni:lunite_block"
+	}
+}

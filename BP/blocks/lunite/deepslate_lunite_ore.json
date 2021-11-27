@@ -1,0 +1,18 @@
+{
+	//by Eko-Byte
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ore-uni:deepslate_lunite_ore"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 4,
+			"minecraft:loot": "loot_tables/lunite/lunite_ore.json"
+		}
+	}
+}
