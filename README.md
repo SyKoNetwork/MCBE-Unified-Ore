@@ -23,7 +23,7 @@ Thank you for considering to contribute to the **"MCBE-Unified-Ore"** project!
 
 ## Starting development
 
-We strongly recommend **"bridge."** to edit the project files as their are presets avilable and a compiler built in to test out the addon in game.
+We strongly recommend **"bridge."** to edit the project files as there are presets avilable and a compiler built in to test out the addon in game.
 
 ## Presets
 
