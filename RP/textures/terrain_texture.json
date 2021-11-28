@@ -99,6 +99,15 @@
 		},
 		"uni_zinc_block": {
 			"textures": "textures/blocks/zinc/zinc_block"
+		},
+		"uni_sulfur_ore": {
+			"textures": "textures/blocks/sulfur/sulfur_ore"
+		},
+		"uni_deepslate_sulfur_ore": {
+			"textures": "textures/blocks/sulfur/deepslate_sulfur_ore"
+		},
+		"uni_sulfur_block": {
+			"textures": "textures/blocks/sulfur/sulfur_block"
 		}
 	}
 }

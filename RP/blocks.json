@@ -74,5 +74,14 @@
 	},
 	"ore-uni:zinc_block": {
 		"sound": "metal"
+	},
+	"ore-uni:sulfur_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:deepslate_sulfur_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:sulfur_block": {
+		"sound": "metal"
 	}
 }

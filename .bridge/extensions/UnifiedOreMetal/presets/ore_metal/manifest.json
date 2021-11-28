@@ -102,9 +102,23 @@
       "Y_LEVEL_MIN",
       {
         "type": "numberInput",
-        "min": -64,
-        "max": 320,
+        "min": 500,
+        "max": 500,
         "step": 1
+      }
+    ],
+    [
+      "Distribution type",
+      "DISTRIBUTION",
+      {
+        "type": "selectInput",
+        "default": "triangle",
+        "options": [
+          { "text": "Uniform", "value": "uniform" },
+          { "text": "Triangle", "value": "triangle" },
+          { "text": "Gaussian", "value": "gaussian" },
+          { "text": "Inverse Gaussian", "value": "inverse gaussian" }
+        ]
       }
     ],
     [
@@ -112,8 +126,8 @@
       "Y_LEVEL_MAX",
       {
         "type": "numberInput",
-        "min": -64,
-        "max": 320,
+        "min": 500,
+        "max": 500,
         "step": 1
       }
     ],
@@ -350,7 +364,8 @@
         "inject": [
           "IDENTIFIER",
           "AUTHOR",
-          "BLOB_COUNT"
+          "BLOB_COUNT",
+          "AIR_CHANCE"
         ]
       }
     ],
