@@ -67,3 +67,9 @@ tile.ore-uni:zinc_block.name=Zinc Block
 item.ore-uni:zinc_ingot=Zinc Ingot
 item.ore-uni:zinc_nugget=Zinc Nugget
 item.ore-uni:raw_zinc=Raw Zinc
+
+##by SyKo
+tile.ore-uni:deepslate_sulfur_ore.name=Deepslate Sulfur Ore
+tile.ore-uni:sulfur_ore.name=Sulfur Ore
+tile.ore-uni:sulfur_block.name=Sulfur Block
+item.ore-uni:sulfur=Sulfur Powder

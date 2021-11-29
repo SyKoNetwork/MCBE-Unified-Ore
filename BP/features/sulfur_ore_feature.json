@@ -1,16 +1,16 @@
 {
-	//by RageTheFox
-	"format_version": "1.13.0",
+	//by SyKo
+	"format_version": "1.17.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "ore-uni:uranium_ore_feature"
+			"identifier": "ore-uni:sulfur_ore_feature"
 		},
-		"count": 4,
-		"discard_chance_on_air_exposure": 0.3,
+		"count": 5,
+		"discard_chance_on_air_exposure": 0.9,
 		"replace_rules": [
 			{
 				"places_block": {
-					"name": "ore-uni:uranium_ore",
+					"name": "ore-uni:sulfur_ore",
 					"states": {}
 				},
 				"may_replace": [
@@ -42,7 +42,7 @@
 			},
 			{
 				"places_block": {
-					"name": "ore-uni:deepslate_uranium_ore",
+					"name": "ore-uni:deepslate_sulfur_ore",
 					"states": {}
 				},
 				"may_replace": [

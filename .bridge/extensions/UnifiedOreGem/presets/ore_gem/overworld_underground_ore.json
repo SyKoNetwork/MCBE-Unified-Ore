@@ -36,7 +36,7 @@
 				]
 			},
 			"y": {
-				"distribution": "uniform",
+				"distribution": {{DISTRIBUTION}},
 				"extent": [
 					{{Y_LEVEL_MIN}},
 					{{Y_LEVEL_MAX}}
