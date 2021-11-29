@@ -1,10 +1,10 @@
 {
-	//by RageTheFox
+	//by SyKo
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "ore-uni:overworld_underground_uranium_ore",
-			"places_feature": "ore-uni:uranium_ore_feature"
+			"identifier": "ore-uni:overworld_underground_sulfur_ore",
+			"places_feature": "ore-uni:sulfur_ore_feature"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",
@@ -38,8 +38,8 @@
 			"y": {
 				"distribution": "triangle",
 				"extent": [
-					-136,
-					-42
+					-126,
+					-32
 				]
 			},
 			"z": {

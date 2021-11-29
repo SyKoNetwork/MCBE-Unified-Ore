@@ -35,10 +35,10 @@
                 ]
             },
             "y": {
-                "distribution": "uniform",
+                "distribution": "triangle",
                 "extent": [
-                    -64,
-                    50
+                    -24,
+                    128
                 ]
             },
             "z": {
