@@ -119,17 +119,18 @@
       }
     ],
     [
-      "Explosion Resistance",
+      "Explosion Resistance (Use if Overworld Gen Enabled)",
       "EXPLOSION_RESISTANCE",
       {
         "type": "numberInput",
         "min": 0,
         "max": 12,
-        "step": 1
+        "step": 1,
+        "optional": true
       }
     ],
     [
-      "Deepslate Explosion Resistance",
+      "Deepslate Explosion Resistance (Use if Overworld Gen Enabled)",
       "DEEPSLATE_EXPLOSION_RESISTANCE",
       {
         "type": "numberInput",

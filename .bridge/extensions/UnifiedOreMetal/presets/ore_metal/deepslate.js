@@ -305,30 +305,93 @@ module.exports = async ({ createFile, expandFile, models }) => {
       },
     };
     var langData = `tile.ore-uni:${IDENTIFIER}_ore.name=${IDENTIFIER_NAME} Ore`
-    var blockData = {
-      format_version: "1.16.100",
-      "minecraft:block": {
-        description: {
-          identifier: `ore-uni:${IDENTIFIER}_ore`,
-        },
-        components: {
-          "minecraft:creative_category": {
-            category: "nature",
-            group: "itemGroup.name.ore",
+    if (OVERWORLD || (NETHER && !OVERWORLD) || (!NETHER && !OVERWORLD && END)) {
+      var recipeData = {
+        format_version: "1.12",
+        "minecraft:recipe_furnace": {
+          description: {
+            identifier: `ore-uni:furnace_${IDENTIFIER}_ore`,
           },
-          "minecraft:destroy_time": 1.5,
-          "minecraft:explosion_resistance": EXPLOSION_RESISTANCE,
-          "minecraft:material_instances": {
-            "*": {
-              texture: `uni_${IDENTIFIER}_ore`,
-              rdeepslateer_method: "opaque",
+          tags: ["furnace", "blast_furnace"],
+          input: `ore-uni:${IDENTIFIER}_ore`,
+          output: `ore-uni:${IDENTIFIER}`,
+        },
+      };
+      var langData = `tile.ore-uni:${IDENTIFIER}_ore.name=${IDENTIFIER_NAME} Ore`
+      if (OVERWORLD) {var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
+          },
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
             },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
           },
-          "minecraft:unit_cube": {},
-          "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
         },
-      },
-    };
+      };}
+  
+      if (NETHER) {var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
+          },
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
+            },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": NETHER_EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
+          },
+        },
+      };}
+  
+      if (END) {var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
+          },
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
+            },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": END_EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
+          },
+        },
+      };}
 
     await createFile(
       `BP/blocks/${IDENTIFIER}/${IDENTIFIER}_ore.json`,

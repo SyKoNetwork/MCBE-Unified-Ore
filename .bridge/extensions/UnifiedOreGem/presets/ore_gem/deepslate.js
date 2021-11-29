@@ -23,7 +23,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         output: `ore-uni:${IDENTIFIER}`,
       },
     };
-    var langData = `tile.ore-uni:nether_${IDENTIFIER}_ore.name=Nether ${IDENTIFIER_NAME} Ore`
+    var langData = `tile.ore-uni:nether_${IDENTIFIER}_ore.name=Nether ${IDENTIFIER_NAME} Ore`;
     var blockData = {
       format_version: "1.16.100",
       "minecraft:block": {
@@ -73,47 +73,44 @@ module.exports = async ({ createFile, expandFile, models }) => {
       },
     });
 
-		await expandFile("RP/texts/en_US.lang", langData
-    );
+    await expandFile("RP/texts/en_US.lang", langData);
 
-		await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-    {
-			"minecraft:ore_feature": {
-				"replace_rules": [
-					{
-						"places_block": {
-							"name": `ore-uni:nether_${IDENTIFIER}_ore`,
-							"states": {}
-						},
-						"may_replace": [
-							{
-								"name": "minecraft:netherrack",
-								"states": {}
-							},
-							{
-								"name": "minecraft:soul_sand",
-								"states": {}
-							},
-							{
-								"name": "minecraft:soul_soil",
-								"states": {}
-							},
-							{
-								"name": "minecraft:blackstone",
-								"states": {}
-							},
-							{
-								"name": "minecraft:basalt",
-								"states": {}
-							}
-						]
-					}
-				]
-			}
-		}
-    );
-  };
-  
+    await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
+      "minecraft:ore_feature": {
+        replace_rules: [
+          {
+            places_block: {
+              name: `ore-uni:nether_${IDENTIFIER}_ore`,
+              states: {},
+            },
+            may_replace: [
+              {
+                name: "minecraft:netherrack",
+                states: {},
+              },
+              {
+                name: "minecraft:soul_sand",
+                states: {},
+              },
+              {
+                name: "minecraft:soul_soil",
+                states: {},
+              },
+              {
+                name: "minecraft:blackstone",
+                states: {},
+              },
+              {
+                name: "minecraft:basalt",
+                states: {},
+              },
+            ],
+          },
+        ],
+      },
+    });
+  }
+
   if (END && (OVERWORLD || NETHER)) {
     var recipeData = {
       format_version: "1.12",
@@ -126,7 +123,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         output: `ore-uni:${IDENTIFIER}`,
       },
     };
-    var langData = `tile.ore-uni:end_${IDENTIFIER}_ore.name=End ${IDENTIFIER_NAME} Ore`
+    var langData = `tile.ore-uni:end_${IDENTIFIER}_ore.name=End ${IDENTIFIER_NAME} Ore`;
     var blockData = {
       format_version: "1.16.100",
       "minecraft:block": {
@@ -176,30 +173,27 @@ module.exports = async ({ createFile, expandFile, models }) => {
       },
     });
 
-		await expandFile("RP/texts/en_US.lang", langData
-    );
+    await expandFile("RP/texts/en_US.lang", langData);
 
-		await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-    {
-			"minecraft:ore_feature": {
-				"replace_rules": [
-					{
-						"places_block": {
-							"name": `ore-uni:end_${IDENTIFIER}_ore`,
-							"states": {}
-						},
-						"may_replace": [
-							{
-								"name": "minecraft:end_stone",
-								"states": {}
-							}
-						]
-					}
-				]
-			}
-		}
-    );
-  };
+    await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
+      "minecraft:ore_feature": {
+        replace_rules: [
+          {
+            places_block: {
+              name: `ore-uni:end_${IDENTIFIER}_ore`,
+              states: {},
+            },
+            may_replace: [
+              {
+                name: "minecraft:end_stone",
+                states: {},
+              },
+            ],
+          },
+        ],
+      },
+    });
+  }
 
   if (OVERWORLD) {
     var recipeData = {
@@ -213,7 +207,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         output: `ore-uni:${IDENTIFIER}`,
       },
     };
-    var langData = `tile.ore-uni:deepslate_${IDENTIFIER}_ore.name=Deepslate ${IDENTIFIER_NAME} Ore`
+    var langData = `tile.ore-uni:deepslate_${IDENTIFIER}_ore.name=Deepslate ${IDENTIFIER_NAME} Ore`;
     var blockData = {
       format_version: "1.16.100",
       "minecraft:block": {
@@ -263,34 +257,31 @@ module.exports = async ({ createFile, expandFile, models }) => {
       },
     });
 
-		await expandFile("RP/texts/en_US.lang", langData
-    );
+    await expandFile("RP/texts/en_US.lang", langData);
 
-		await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-    {
-			"minecraft:ore_feature": {
-				"replace_rules": [
-					{
-						"places_block": {
-							"name": `ore-uni:deepslate_${IDENTIFIER}_ore`,
-							"states": {}
-						},
-						"may_replace": [
-							{
-								"name": "minecraft:deepslate",
-								"states": {}
-							},
-							{
-								"name": "minecraft:tuff",
-								"states": {}
-							}
-						]
-					}
-				]
-			}
-		}
-    );
-  };
+    await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
+      "minecraft:ore_feature": {
+        replace_rules: [
+          {
+            places_block: {
+              name: `ore-uni:deepslate_${IDENTIFIER}_ore`,
+              states: {},
+            },
+            may_replace: [
+              {
+                name: "minecraft:deepslate",
+                states: {},
+              },
+              {
+                name: "minecraft:tuff",
+                states: {},
+              },
+            ],
+          },
+        ],
+      },
+    });
+  }
 
   if (OVERWORLD || (NETHER && !OVERWORLD) || (!NETHER && !OVERWORLD && END)) {
     var recipeData = {
@@ -304,31 +295,87 @@ module.exports = async ({ createFile, expandFile, models }) => {
         output: `ore-uni:${IDENTIFIER}`,
       },
     };
-    var langData = `tile.ore-uni:${IDENTIFIER}_ore.name=${IDENTIFIER_NAME} Ore`
-    var blockData = {
-      format_version: "1.16.100",
-      "minecraft:block": {
-        description: {
-          identifier: `ore-uni:${IDENTIFIER}_ore`,
-        },
-        components: {
-          "minecraft:creative_category": {
-            category: "nature",
-            group: "itemGroup.name.ore",
+    var langData = `tile.ore-uni:${IDENTIFIER}_ore.name=${IDENTIFIER_NAME} Ore`;
+    if (OVERWORLD) {
+      var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
           },
-          "minecraft:destroy_time": 1.5,
-          "minecraft:explosion_resistance": EXPLOSION_RESISTANCE,
-          "minecraft:material_instances": {
-            "*": {
-              texture: `uni_${IDENTIFIER}_ore`,
-              rdeepslateer_method: "opaque",
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
             },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
           },
-          "minecraft:unit_cube": {},
-          "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
         },
-      },
-    };
+      };
+    }
+
+    if (NETHER) {
+      var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
+          },
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
+            },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": NETHER_EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
+          },
+        },
+      };
+    }
+
+    if (END) {
+      var blockData = {
+        format_version: "1.16.100",
+        "minecraft:block": {
+          description: {
+            identifier: `ore-uni:${IDENTIFIER}_ore`,
+          },
+          components: {
+            "minecraft:creative_category": {
+              category: "nature",
+              group: "itemGroup.name.ore",
+            },
+            "minecraft:destroy_time": 1.5,
+            "minecraft:explosion_resistance": END_EXPLOSION_RESISTANCE,
+            "minecraft:material_instances": {
+              "*": {
+                texture: `uni_${IDENTIFIER}_ore`,
+                rdeepslateer_method: "opaque",
+              },
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:loot": `loot_tables/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
+          },
+        },
+      };
+    }
 
     await createFile(
       `BP/blocks/${IDENTIFIER}/${IDENTIFIER}_ore.json`,
@@ -354,118 +401,111 @@ module.exports = async ({ createFile, expandFile, models }) => {
       },
     });
 
-		await expandFile("RP/texts/en_US.lang", langData
-    );
+    await expandFile("RP/texts/en_US.lang", langData);
 
-    if(OVERWORLD) {
-      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-      {
+    if (OVERWORLD) {
+      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
         "minecraft:ore_feature": {
-          "replace_rules": [
+          replace_rules: [
             {
-              "places_block": {
-                "name": `ore-uni:${IDENTIFIER}_ore`,
-                "states": {}
+              places_block: {
+                name: `ore-uni:${IDENTIFIER}_ore`,
+                states: {},
               },
-              "replace_rules": [
+              replace_rules: [
                 {
-                  "places_block": {
-                    "name": `ore-uni:${IDENTIFIER}_ore`,
-                    "states": {}
+                  places_block: {
+                    name: `ore-uni:${IDENTIFIER}_ore`,
+                    states: {},
                   },
-                  "may_replace": [
+                  may_replace: [
                     {
-                      "name": "minecraft:stone",
-                      "states": {
-                        "stone_type": "stone"
-                      }
+                      name: "minecraft:stone",
+                      states: {
+                        stone_type: "stone",
+                      },
                     },
                     {
-                      "name": "minecraft:stone",
-                      "states": {
-                        "stone_type": "andesite"
-                      }
+                      name: "minecraft:stone",
+                      states: {
+                        stone_type: "andesite",
+                      },
                     },
                     {
-                      "name": "minecraft:stone",
-                      "states": {
-                        "stone_type": "granite"
-                      }
+                      name: "minecraft:stone",
+                      states: {
+                        stone_type: "granite",
+                      },
                     },
                     {
-                      "name": "minecraft:stone",
-                      "states": {
-                        "stone_type": "diorite"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-      );
+                      name: "minecraft:stone",
+                      states: {
+                        stone_type: "diorite",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      });
     }
-    if(NETHER) {
-      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-      {
+    if (NETHER) {
+      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
         "minecraft:ore_feature": {
-          "replace_rules": [
+          replace_rules: [
             {
-              "places_block": {
-                "name": `ore-uni:${IDENTIFIER}_ore`,
-                "states": {}
+              places_block: {
+                name: `ore-uni:${IDENTIFIER}_ore`,
+                states: {},
               },
-              "may_replace": [
+              may_replace: [
                 {
-                  "name": "minecraft:netherrack",
-                  "states": {}
+                  name: "minecraft:netherrack",
+                  states: {},
                 },
                 {
-                  "name": "minecraft:soul_sand",
-                  "states": {}
+                  name: "minecraft:soul_sand",
+                  states: {},
                 },
                 {
-                  "name": "minecraft:soul_soil",
-                  "states": {}
+                  name: "minecraft:soul_soil",
+                  states: {},
                 },
                 {
-                  "name": "minecraft:blackstone",
-                  "states": {}
+                  name: "minecraft:blackstone",
+                  states: {},
                 },
                 {
-                  "name": "minecraft:basalt",
-                  "states": {}
-                }
-              ]
-            }
-          ]
-        }
-      }
-      );
+                  name: "minecraft:basalt",
+                  states: {},
+                },
+              ],
+            },
+          ],
+        },
+      });
     }
-    if(END) {
-      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`,
-      {
+    if (END) {
+      await expandFile(`BP/features/${IDENTIFIER}_ore_feature.json`, {
         "minecraft:ore_feature": {
-          "replace_rules": [
+          replace_rules: [
             {
-              "places_block": {
-                "name": `ore-uni:${IDENTIFIER}_ore`,
-                "states": {}
+              places_block: {
+                name: `ore-uni:${IDENTIFIER}_ore`,
+                states: {},
               },
-              "may_replace": [
+              may_replace: [
                 {
-                  "name": "minecraft:end_stone",
-                  "states": {}
-                }
-              ]
-            }
-          ]
-        }
-      }
-      );
+                  name: "minecraft:end_stone",
+                  states: {},
+                },
+              ],
+            },
+          ],
+        },
+      });
     }
-  };
+  }
 };
