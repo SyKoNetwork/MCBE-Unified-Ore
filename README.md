@@ -28,7 +28,7 @@ We strongly recommend **"bridge."** to edit the project files as their are prese
 
 ## Presets
 
-With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! Loot Tables follow a heirarchy, if you select Iron then Iron and better will be able to mine the block!
+With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! Loot Tables follow a heirarchy, if you select Iron then Iron and better will be able to mine the block! Our presets are constantly evolving be sure to see the new features!
 
 ## Code Rules
 
@@ -46,7 +46,9 @@ functionality at least once and didn't encounter unexpected behaviour.
 We request that all texture/file submissions be nested in a folder with the name of the ore you are submitting.
 
 ```
-BP/blocks/"ore_name"/deep_slate_"ore_name".json
+BP/blocks/"ore_name"/deepslate_"ore_name".json
+BP/blocks/"ore_name"/nether_"ore_name".json
+BP/blocks/"ore_name"/end_"ore_name".json
 BP/blocks/"ore_name"/"ore_name".json
 BP/blocks/"ore_name"/raw_"ore_name"_block.json
 
@@ -59,11 +61,15 @@ BP/items/"ore_name"/raw_"ore_name".json
 BP/loot_tables/"ore_name"/"ore_name".json
 
 BP/recipes/"ore_name"/furnace_deepslate_"ore_name".json
+BP/recipes/"ore_name"/furnace_nether_"ore_name".json
+BP/recipes/"ore_name"/furnace_end_"ore_name".json
 BP/recipes/"ore_name"/furnace_"ore_name".json
 BP/recipes/"ore_name"/furnace_raw_"ore_name".json
 BP/recipes/"ore_name"/crafting_raw_"ore_name"_block.json
 
 RP/textures/blocks/"ore_name"/deepslate_"ore_name"_ore
+RP/textures/blocks/"ore_name"/nether_"ore_name"_ore
+RP/textures/blocks/"ore_name"/end_"ore_name"_ore
 RP/textures/blocks/"ore_name"/"ore_name"_ore
 RP/textures/blocks/"ore_name"/"ore_name"_block
 
@@ -77,6 +83,8 @@ All identifier names should be in the vanilla style and use the namespace **ore-
 
 ```
 ore-uni:deepslate_"ore_name"
+ore-uni:nether_"ore_name"
+ore-uni:end_"ore_name"
 ore-uni:"ore_name"
 ore-uni:raw_"ore_name"_block
 

@@ -98,44 +98,11 @@
       }
     ],
     [
-      "Height Min",
-      "Y_LEVEL_MIN",
-      {
-        "type": "numberInput",
-        "min": 500,
-        "max": 500,
-        "step": 1
-      }
-    ],
-    [
-      "Distribution type",
-      "DISTRIBUTION",
-      {
-        "type": "selectInput",
-        "default": "triangle",
-        "options": [
-          { "text": "Uniform", "value": "uniform" },
-          { "text": "Triangle", "value": "triangle" },
-          { "text": "Gaussian", "value": "gaussian" },
-          { "text": "Inverse Gaussian", "value": "inverse gaussian" }
-        ]
-      }
-    ],
-    [
-      "Height Max",
-      "Y_LEVEL_MAX",
-      {
-        "type": "numberInput",
-        "min": 500,
-        "max": 500,
-        "step": 1
-      }
-    ],
-    [
       "Ore Per Blob",
       "BLOB_COUNT",
       {
         "type": "numberInput",
+
         "min": 1,
         "max": 32,
         "step": 1
@@ -148,27 +115,52 @@
         "type": "numberInput",
         "min": 0,
         "max": 1,
-        "step": 0.1
+        "step": 0.1,
+        "optional": true
       }
     ],
     [
-      "Explosion Resistance",
+      "Explosion Resistance (Use if Overworld Gen Enabled)",
       "EXPLOSION_RESISTANCE",
       {
         "type": "numberInput",
-        "min": 1,
+        "min": 0,
         "max": 12,
-        "step": 1
+        "step": 1,
+        "optional": true
       }
     ],
     [
-      "Deepslate Explosion Resistance",
+      "Deepslate Explosion Resistance (Use if Overworld Gen Enabled)",
       "DEEPSLATE_EXPLOSION_RESISTANCE",
       {
         "type": "numberInput",
-        "min": 1,
+        "min": 0,
         "max": 12,
-        "step": 1
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Nether Explosion Resistance (Use if Nether Gen Enabled)",
+      "NETHER_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "End Explosion Resistance (Use if End Gen Enabled)",
+      "END_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
       }
     ],
     [
@@ -179,6 +171,110 @@
         "min": 1,
         "max": 32,
         "step": 1
+      }
+    ],
+    [
+      "Height Min",
+      "Y_LEVEL_MIN",
+      {
+        "type": "numberInput",
+        "min": -64,
+        "max": 320,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Height Max",
+      "Y_LEVEL_MAX",
+      {
+        "type": "numberInput",
+        "min": -64,
+        "max": 320,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Extent Min",
+      "EXTENT_MIN",
+      {
+        "type": "numberInput",
+        "min": -16,
+        "max": 16,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Extent Max",
+      "EXTENT_MAX",
+      {
+        "type": "numberInput",
+        "min": -16,
+        "max": 16,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "When Generated",
+      "PASS",
+      {
+        "type": "selectInput",
+        "default": "underground_pass",
+        "options": [
+          { "text": "First", "value": "first_pass" },
+          { "text": "Before Underground", "value": "before_underground_pass" },
+          { "text": "Underground", "value": "underground_pass" },
+          { "text": "Before Surface", "value": "before_surface_pass" },
+          { "text": "Surface", "value": "surface_pass" },
+          { "text": "After Surface", "value": "after_surface_pass" },
+          { "text": "Before Sky", "value": "before_sky_pass" },
+          { "text": "Sky", "value": "sky_pass" },
+          { "text": "After Sky", "value": "after_sky_pass" },
+          { "text": "Final", "value": "final_pass" }
+        ]
+      }
+    ],
+    [
+      "Distribution (How It's Placed)",
+      "DISTRIBUTION",
+      {
+        "type": "selectInput",
+        "default": "uniform",
+        "options": [
+          { "text": "Uniform", "value": "uniform" },
+          { "text": "Gaussian", "value": "gaussian" },
+          { "text": "Inverse Gaussian", "value": "inverse_gaussian" },
+          { "text": "Fixed Grid", "value": "fixed_grid" },
+          { "text": "Jittered Grid", "value": "jittered_grid" }
+        ]
+      }
+    ],
+    [
+      "End Generation",
+      "END",
+      {
+        "type": "switch",
+        "optional": true
+      }
+    ],
+    [
+      "Nether Generation",
+      "NETHER",
+      {
+        "type": "switch",
+        "optional": true
+      }
+    ],
+    [
+      "Overworld Generation",
+      "OVERWORLD",
+      {
+        "type": "switch",
+        "optional": true,
+        "default": true
       }
     ]
   ],
@@ -244,26 +340,6 @@
       }
     ],
     [
-      "furnace_deepslate_ore.json",
-      "BP/recipes/{{IDENTIFIER}}/furnace_deepslate_{{IDENTIFIER}}_ore.json",
-      {
-        "inject": [
-          "IDENTIFIER",
-          "AUTHOR"
-        ]
-      }
-    ],
-    [
-      "furnace_ore.json",
-      "BP/recipes/{{IDENTIFIER}}/furnace_{{IDENTIFIER}}_ore.json",
-      {
-        "inject": [
-          "IDENTIFIER",
-          "AUTHOR"
-        ]
-      }
-    ],
-    [
       "furnace_raw.json",
       "BP/recipes/{{IDENTIFIER}}/furnace_raw_{{IDENTIFIER}}.json",
       {
@@ -280,28 +356,6 @@
         "inject": [
           "IDENTIFIER",
           "AUTHOR"
-        ]
-      }
-    ],
-    [
-      "deepslate_ore.json",
-      "BP/blocks/{{IDENTIFIER}}/deepslate_{{IDENTIFIER}}_ore.json",
-      {
-        "inject": [
-          "IDENTIFIER",
-          "AUTHOR",
-          "DEEPSLATE_EXPLOSION_RESISTANCE"
-        ]
-      }
-    ],
-    [
-      "ore.json",
-      "BP/blocks/{{IDENTIFIER}}/{{IDENTIFIER}}_ore.json",
-      {
-        "inject": [
-          "IDENTIFIER",
-          "AUTHOR",
-          "EXPLOSION_RESISTANCE"
         ]
       }
     ],
@@ -369,19 +423,8 @@
         ]
       }
     ],
-    [
-      "overworld_underground_ore.json",
-      "BP/feature_rules/overworld_underground_{{IDENTIFIER}}_ore.json",
-      {
-        "inject": [
-          "IDENTIFIER",
-          "AUTHOR",
-          "Y_LEVEL_MIN",
-          "Y_LEVEL_MAX",
-          "ITERATIONS"
-        ]
-      }
-    ],
+    "./rule.js",
+    "./deepslate.js",
     "./loot.js"
   ],
   "expandFiles": [
