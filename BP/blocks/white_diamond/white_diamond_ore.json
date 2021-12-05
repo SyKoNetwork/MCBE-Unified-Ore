@@ -1,0 +1,25 @@
+{
+	//by SyKo
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ore-uni:white_diamond_ore"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "uni_white_diamond_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:loot": "loot_tables/white_diamond/white_diamond_ore.json"
+		}
+	}
+}

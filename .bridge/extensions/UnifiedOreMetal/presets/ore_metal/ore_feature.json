@@ -1,0 +1,13 @@
+{
+	//by {{AUTHOR}}
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ore-uni:{{IDENTIFIER}}_ore_feature"
+		},
+		"count": {{BLOB_COUNT}},
+		"discard_chance_on_air_exposure": {{AIR_CHANCE}},
+		"replace_rules": [
+		]
+	}
+}

@@ -1,0 +1,6 @@
+##by {{AUTHOR}}
+tile.ore-uni:raw_{{IDENTIFIER}}_block.name=Raw {{IDENTIFIER_NAME}} Block
+tile.ore-uni:{{IDENTIFIER}}_block.name={{IDENTIFIER_NAME}} Block
+item.ore-uni:{{IDENTIFIER}}_ingot={{IDENTIFIER_NAME}} Ingot
+item.ore-uni:{{IDENTIFIER}}_nugget={{IDENTIFIER_NAME}} Nugget
+item.ore-uni:raw_{{IDENTIFIER}}=Raw {{IDENTIFIER_NAME}}

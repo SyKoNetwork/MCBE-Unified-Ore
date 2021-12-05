@@ -1,0 +1,11 @@
+{
+	"texture_data": {
+
+		//by {{AUTHOR}}
+		
+		"ore-uni_{{IDENTIFIER}}": {
+			"textures": "textures/items/{{IDENTIFIER}}/{{IDENTIFIER}}"
+		}
+
+	}
+}

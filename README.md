@@ -3,14 +3,20 @@
 This project aims to create an open sorce repository for custom ores in Minecraft Bedrock!
 
 >  ## Added ores  
-> - [X] Tin  
-> - [X] Deepslate Tin  
+> - [X] Tin 
 > - [X] White Diamond
-> - [X] Deepslate White Diamond
 > - [X] Topaz
-> - [ ] Deepslate Topaz
 > - [X] Tourmaline
-> - [X] Deepslate Tourmaline
+> - [X] Nickel
+> - [X] Opal
+> - [X] Lunite
+> - [X] Uranium
+> - [X] Zinc
+> - [X] Sulfur
+
+## General Discussion
+
+You can make suggestions either on github as an ISSUE or on [Discord](https://discord.gg/b7KeMAYdGV)
 
 # Contributing
 
@@ -18,9 +24,15 @@ Thank you for considering to contribute to the **"MCBE-Unified-Ore"** project!
 
 ## Starting development
 
-We recommend **"bridge."** to edit the project files.
+We strongly recommend **"bridge."** to edit the project files as their are presets avilable and a compiler built in to test out the addon in game.
+
+## Presets
+
+With Bridge v2 presets we are able to automate the entire coding process, with a few clicks you can easily create an ore that is semi-customizable and follows the guidelines of the pack! Loot Tables follow a heirarchy, if you select Iron then Iron and better will be able to mine the block! Our presets are constantly evolving be sure to see the new features!
 
 ## Code Rules
+
+Please be sure to put your name at the top of any code you create so we are able to track who has made what, if you are using the presets this is automatically done for you.
 
 ### Verified as working
 
@@ -31,17 +43,38 @@ functionality at least once and didn't encounter unexpected behaviour.
 
 #### General
 
-We request that all texture submissions be nested in a folder with the name of the ore you are submitting
+We request that all texture/file submissions be nested in a folder with the name of the ore you are submitting.
 
 ```
-RP/textures/blocks/"ore_name"/deepslate_"ore_name"
-RP/textures/blocks/"ore_name"/"ore_name"
-```
+BP/blocks/"ore_name"/deepslate_"ore_name".json
+BP/blocks/"ore_name"/nether_"ore_name".json
+BP/blocks/"ore_name"/end_"ore_name".json
+BP/blocks/"ore_name"/"ore_name".json
+BP/blocks/"ore_name"/raw_"ore_name"_block.json
 
-Same with items
+BP/feature_rules/overworld_underground_"ore_name"_ore.json
 
-```
-RP/textures/items/"ore_name"/"ore_name"_chunk
+BP/feature/"ore_name"_feature.json
+
+BP/items/"ore_name"/raw_"ore_name".json
+
+BP/loot_tables/"ore_name"/"ore_name".json
+
+BP/recipes/"ore_name"/furnace_deepslate_"ore_name".json
+BP/recipes/"ore_name"/furnace_nether_"ore_name".json
+BP/recipes/"ore_name"/furnace_end_"ore_name".json
+BP/recipes/"ore_name"/furnace_"ore_name".json
+BP/recipes/"ore_name"/furnace_raw_"ore_name".json
+BP/recipes/"ore_name"/crafting_raw_"ore_name"_block.json
+
+RP/textures/blocks/"ore_name"/deepslate_"ore_name"_ore
+RP/textures/blocks/"ore_name"/nether_"ore_name"_ore
+RP/textures/blocks/"ore_name"/end_"ore_name"_ore
+RP/textures/blocks/"ore_name"/"ore_name"_ore
+RP/textures/blocks/"ore_name"/"ore_name"_block
+
+RP/textures/items/"ore_name"/raw_"ore_name"
+RP/textures/items/"ore_name"/"ore_name"_ingot
 ```
 
 #### Names
@@ -49,8 +82,14 @@ RP/textures/items/"ore_name"/"ore_name"_chunk
 All identifier names should be in the vanilla style and use the namespace **ore-uni:**.
 
 ```
-"ore-uni:deepslate_"ore_name"
-"ore-uni:"ore_name"
+ore-uni:deepslate_"ore_name"
+ore-uni:nether_"ore_name"
+ore-uni:end_"ore_name"
+ore-uni:"ore_name"
+ore-uni:raw_"ore_name"_block
+
+ore-uni:raw_"ore_name"
+ore-uni:"ore_name"_ingot
 ```
 
 ### Copyright
@@ -59,4 +98,4 @@ Please ensure that **any** and **all** texture submissions are either your own w
 
 ### Opening a Pull Request
 
-Please make sure that you have been working with the "dev" branch. Pull request should use the "dev" branch as their base.
+Please make sure that you have been working with the "dev" branch. Pull requests should use the "dev" branch as their base.

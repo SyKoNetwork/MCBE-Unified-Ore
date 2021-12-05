@@ -1,0 +1,25 @@
+{
+	//by RageTheFox
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ore-uni:deepslate_uranium_ore"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:destroy_time": 1.5,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "uni_deepslate_uranium_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:loot": "loot_tables/uranium/uranium_ore.json"
+		}
+	}
+}

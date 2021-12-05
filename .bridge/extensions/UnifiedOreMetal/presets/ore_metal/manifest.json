@@ -1,0 +1,464 @@
+{
+  "name": "ABC Unified Metal Ore",
+  "icon": "mdi-pickaxe",
+  "description": "Creates Custom Ores",
+  "category": "fileType.block",
+  "targetVersion": [
+    ">=",
+    "1.17.0"
+  ],
+  "packTypes": [
+    "behaviorPack",
+    "resourcePack"
+  ],
+  "fields": [
+    [
+      "Your Username",
+      "AUTHOR",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ],
+    [
+      "Ore Name (Lowercase)",
+      "IDENTIFIER",
+      {
+        "validate": [
+          "required",
+          "alphanumeric",
+          "lowercase"
+        ]
+      }
+    ],
+    [
+      "Display Name",
+      "IDENTIFIER_NAME",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ],
+    [
+      "Select Minable Tools",
+      "TOOL",
+      {
+        "type": "selectInput",
+        "default": "IRON",
+        "options": [
+          { "text": "Wood", "value": "WOOD" },
+          { "text": "Stone", "value": "STONE" },
+          { "text": "Gold", "value": "GOLD" },
+          { "text": "Iron", "value": "IRON" },
+          { "text": "Diamond", "value": "DIAMOND" },
+          { "text": "Netherite", "value": "NETHERITE" }
+        ]
+      }
+    ],
+    [
+      "Drop Min",
+      "DROP_AMT_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Drop Max",
+      "DROP_AMT_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Min",
+      "FORTUNE_ROLLS_MIN",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
+      "Fortune Chance Max",
+      "FORTUNE_ROLLS_MAX",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    [
+      "Ore Per Blob",
+      "BLOB_COUNT",
+      {
+        "type": "numberInput",
+
+        "min": 1,
+        "max": 32,
+        "step": 1
+      }
+    ],
+    [
+      "Air Exposure (Higher Number = Less Ore Near Air)",
+      "AIR_CHANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "optional": true
+      }
+    ],
+    [
+      "Explosion Resistance (Use if Overworld Gen Enabled)",
+      "EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Deepslate Explosion Resistance (Use if Overworld Gen Enabled)",
+      "DEEPSLATE_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Nether Explosion Resistance (Use if Nether Gen Enabled)",
+      "NETHER_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "End Explosion Resistance (Use if End Gen Enabled)",
+      "END_EXPLOSION_RESISTANCE",
+      {
+        "type": "numberInput",
+        "min": 0,
+        "max": 12,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Rarity",
+      "ITERATIONS",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 32,
+        "step": 1
+      }
+    ],
+    [
+      "Height Min",
+      "Y_LEVEL_MIN",
+      {
+        "type": "numberInput",
+        "min": -500,
+        "max": 500,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Height Max",
+      "Y_LEVEL_MAX",
+      {
+        "type": "numberInput",
+        "min": -500,
+        "max": 500,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Extent Min",
+      "EXTENT_MIN",
+      {
+        "type": "numberInput",
+        "min": -16,
+        "max": 16,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Extent Max",
+      "EXTENT_MAX",
+      {
+        "type": "numberInput",
+        "min": -16,
+        "max": 16,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "When Generated",
+      "PASS",
+      {
+        "type": "selectInput",
+        "default": "underground_pass",
+        "options": [
+          { "text": "Before Underground", "value": "before_underground_pass" },
+          { "text": "Underground", "value": "underground_pass" }
+        ]
+      }
+    ],
+    [
+      "Distribution (How It's Placed)",
+      "DISTRIBUTION",
+      {
+        "type": "selectInput",
+        "default": "uniform",
+        "options": [
+          { "text": "Uniform", "value": "uniform" },
+          { "text": "Triangle", "value": "triangle"},
+          { "text": "Gaussian", "value": "gaussian" },
+          { "text": "Inverse Gaussian", "value": "inverse_gaussian" }
+        ]
+      }
+    ],
+    [
+      "End Generation",
+      "END",
+      {
+        "type": "switch",
+        "optional": true
+      }
+    ],
+    [
+      "Nether Generation",
+      "NETHER",
+      {
+        "type": "switch",
+        "optional": true
+      }
+    ],
+    [
+      "Overworld Generation",
+      "OVERWORLD",
+      {
+        "type": "switch",
+        "optional": true,
+        "default": true
+      }
+    ]
+  ],
+  "createFiles": [
+    [
+      "crafting_block.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_block_ingot.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_block_{{IDENTIFIER}}_ingot.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_nugget.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_nugget.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_nugget_ingot.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_{{IDENTIFIER}}_nugget_{{IDENTIFIER}}_ingot.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_raw.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_raw_{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "crafting_raw_block.json",
+      "BP/recipes/{{IDENTIFIER}}/crafting_raw_{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "furnace_raw.json",
+      "BP/recipes/{{IDENTIFIER}}/furnace_raw_{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "furnace_raw_block.json",
+      "BP/recipes/{{IDENTIFIER}}/furnace_raw_{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "raw_block.json",
+      "BP/blocks/{{IDENTIFIER}}/raw_{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "EXPLOSION_RESISTANCE"
+        ]
+      }
+    ],
+    [
+      "block.json",
+      "BP/blocks/{{IDENTIFIER}}/{{IDENTIFIER}}_block.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "EXPLOSION_RESISTANCE"
+        ]
+      }
+    ],
+    [
+      "raw.json",
+      "BP/items/{{IDENTIFIER}}/raw_{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "nugget.json",
+      "BP/items/{{IDENTIFIER}}/{{IDENTIFIER}}_nugget.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "ingot.json",
+      "BP/items/{{IDENTIFIER}}/{{IDENTIFIER}}_ingot.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "ore_feature.json",
+      "BP/features/{{IDENTIFIER}}_ore_feature.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "BLOB_COUNT",
+          "AIR_CHANCE"
+        ]
+      }
+    ],
+    "./rule.js",
+    "./deepslate.js",
+    "./loot.js"
+  ],
+  "expandFiles": [
+    [
+      "en_US.lang",
+      "RP/texts/en_US.lang",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR",
+          "IDENTIFIER_NAME"
+        ]
+      }
+    ],
+    [
+      "blocks.json",
+      "RP/blocks.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "terrain_texture.json",
+      "RP/textures/terrain_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ],
+    [
+      "item_texture.json",
+      "RP/textures/item_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "AUTHOR"
+        ]
+      }
+    ]
+  ]
+}

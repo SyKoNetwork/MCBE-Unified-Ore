@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_nickel_block_nickel_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:nickel_block",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "ore-uni:nickel_ingot",
+            "count": 9
+        }
+    }
+}

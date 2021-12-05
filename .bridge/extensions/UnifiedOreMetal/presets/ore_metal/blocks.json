@@ -1,0 +1,12 @@
+{
+   
+   //by {{AUTHOR}}
+
+   "ore-uni:raw_{{IDENTIFIER}}_block": {
+      "sound": "stone"
+   },
+   "ore-uni:{{IDENTIFIER}}_block": {
+      "sound": "metal"
+   }
+
+}

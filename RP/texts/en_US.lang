@@ -1,8 +1,75 @@
 pack.name=MCBE-Unified-Ore RP
 pack.description=MCBE-Unified-Ore RP
+
+
+tile.ore-uni:deepslate_tin_ore.name=Deepslate Tin Ore
 tile.ore-uni:tin_ore.name=Tin Ore
+tile.ore-uni:raw_tin_block.name=Raw Tin Block
+tile.ore-uni:tin_block.name=Tin Block
+item.ore-uni:raw_tin=Raw Tin
+item.ore-uni:tin_ingot=Tin Ingot
+item.ore-uni:tin_nugget=Tin Nugget
+
+tile.ore-uni:deepslate_nickel_ore.name=Deepslate Nickel Ore
+tile.ore-uni:nickel_ore.name=Nickel Ore
+tile.ore-uni:raw_nickel_block.name=Raw Nickel Block
+tile.ore-uni:nickel_block.name=Nickel Block
+item.ore-uni:raw_nickel=Raw Nickel
+item.ore-uni:nickel_ingot=Nickel Ingot
+item.ore-uni:nickel_nugget=Nickel Nugget
+
+##by SyKo
+tile.ore-uni:deepslate_topaz_ore.name=Deepslate Topaz Ore
 tile.ore-uni:topaz_ore.name=Topaz Ore
-tile.ore-uni:deepsalte_white_diamond_ore.name=Deepslate White Diamond Ore
-tile.ore-uni:white_diamond_ore=White Diamond Ore
+tile.ore-uni:topaz_block.name=Topaz Block
+item.ore-uni:topaz=Topaz
+
+##by SyKo
+tile.ore-uni:deepslate_white_diamond_ore.name=Deepslate White Diamond Ore
+tile.ore-uni:white_diamond_ore.name=White Diamond Ore
+tile.ore-uni:white_diamond_block.name=White Diamond Block
+item.ore-uni:white_diamond=White Diamond
+
+##by Chikorita Lover
 tile.ore-uni:deepslate_tourmaline_ore.name=Deepslate Tourmaline Ore
 tile.ore-uni:tourmaline_ore.name=Tourmaline Ore
+tile.ore-uni:tourmaline_block.name=Tourmaline Block
+item.ore-uni:tourmaline=Tourmaline
+
+##by SyKo
+tile.ore-uni:deepslate_opal_ore.name=Deepslate Opal Ore
+tile.ore-uni:opal_ore.name=Opal Ore
+tile.ore-uni:opal_block.name=Opal Block
+item.ore-uni:opal=Opal
+
+##by Eko-Bytes
+tile.ore-uni:deepslate_lunite_ore.name=Deepslate Lunite Ore
+tile.ore-uni:lunite_ore.name=Lunite Ore
+tile.ore-uni:raw_lunite_block.name=Raw Lunite Block
+tile.ore-uni:lunite_block.name=Lunite Block
+item.ore-uni:raw_lunite=Raw Lunite
+item.ore-uni:lunite_ingot=Lunite Ingot
+item.ore-uni:lunite_nugget=Lunite Nugget
+##by RageTheFox
+tile.ore-uni:deepslate_uranium_ore.name=Deepslate Uranium Ore
+tile.ore-uni:uranium_ore.name=Uranium Ore
+tile.ore-uni:raw_uranium_block.name=Raw Uranium Block
+tile.ore-uni:uranium_block.name=Uranium Block
+item.ore-uni:uranium_ingot=Uranium Ingot
+item.ore-uni:uranium_nugget=Uranium Nugget
+item.ore-uni:raw_uranium=Raw Uranium
+
+##by SyKo
+tile.ore-uni:deepslate_zinc_ore.name=Deepslate Zinc Ore
+tile.ore-uni:zinc_ore.name=Zinc Ore
+tile.ore-uni:raw_zinc_block.name=Raw Zinc Block
+tile.ore-uni:zinc_block.name=Zinc Block
+item.ore-uni:zinc_ingot=Zinc Ingot
+item.ore-uni:zinc_nugget=Zinc Nugget
+item.ore-uni:raw_zinc=Raw Zinc
+
+##by SyKo
+tile.ore-uni:deepslate_sulfur_ore.name=Deepslate Sulfur Ore
+tile.ore-uni:sulfur_ore.name=Sulfur Ore
+tile.ore-uni:sulfur_block.name=Sulfur Block
+item.ore-uni:sulfur=Sulfur Powder

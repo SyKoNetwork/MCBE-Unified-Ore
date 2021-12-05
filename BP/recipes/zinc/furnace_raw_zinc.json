@@ -1,0 +1,15 @@
+{
+    //by SyKo
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_zinc"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_zinc",
+		"output": "ore-uni:zinc_ingot"
+	}
+}
