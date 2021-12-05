@@ -1,4 +1,4 @@
-module.exports = async ({ createFile, models }) => {
+module.exports = async ({ createFile, expandFile, models }) => {
 	const {
 		IDENTIFIER,
 		DROP_AMT_MIN,
