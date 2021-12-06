@@ -114,6 +114,12 @@
 		},
 		"uni_deepslate_silver_ore": {
 			"textures": "textures/blocks/silver/deepslate_silver_ore"
+		},
+		"uni_silver_block": {
+			"textures": "textures/blocks/silver/silver_block"
+		},
+		"uni_raw_silver_block": {
+			"textures": "textures/blocks/silver/raw_silver_block"
 		}
 	}
 }
