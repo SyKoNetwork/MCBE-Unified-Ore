@@ -22,7 +22,7 @@
 		"The SyKoNetwork"
 	],
 	"bridge": {
-		"darkTheme": "bridge.blue.dark_theme",
-		"lightTheme": "solved.custom_theme.light_coral"
+		"darkTheme": "frederox.moonlight_dark",
+		"lightTheme": "frederox.moonlight_light"
 	}
 }

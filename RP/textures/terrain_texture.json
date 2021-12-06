@@ -108,6 +108,12 @@
 		},
 		"uni_sulfur_block": {
 			"textures": "textures/blocks/sulfur/sulfur_block"
+		},
+		"uni_silver_ore": {
+			"textures": "textures/blocks/silver/silver_ore"
+		},
+		"uni_deepslate_silver_ore": {
+			"textures": "textures/blocks/silver/deepslate_silver_ore"
 		}
 	}
 }
