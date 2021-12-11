@@ -1,0 +1,9 @@
+{
+   
+   //by {{AUTHOR}}
+
+   "ore-uni:{{IDENTIFIER}}_block": {
+      "sound": "metal"
+   }
+
+}

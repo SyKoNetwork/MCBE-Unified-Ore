@@ -1,0 +1,3 @@
+##by {{AUTHOR}}
+tile.ore-uni:{{IDENTIFIER}}_block.name={{IDENTIFIER_NAME}} Block
+item.ore-uni:{{IDENTIFIER}}_ingot={{IDENTIFIER_NAME}} Ingot
