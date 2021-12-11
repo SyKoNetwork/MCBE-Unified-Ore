@@ -1,0 +1,60 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ore-uni:terrastrium_ore_feature"
+		},
+		"count": 5,
+		"discard_chance_on_air_exposure": 0,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "ore-uni:deepslate_terrastrium_ore",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate",
+						"states": {}
+					},
+					{
+						"name": "minecraft:tuff",
+						"states": {}
+					}
+				]
+			},
+			{
+				"places_block": {
+					"name": "ore-uni:terrastrium_ore",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "stone"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			}
+		]
+	}
+}

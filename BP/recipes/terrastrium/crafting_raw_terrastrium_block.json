@@ -1,0 +1,22 @@
+{
+    //by Eko-byte
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_raw_terrastrium_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:raw_terrastrium",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "ore-uni:raw_terrastrium_block",
+            "count": 1
+        }
+    }
+}

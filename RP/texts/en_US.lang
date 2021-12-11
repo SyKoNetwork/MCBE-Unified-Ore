@@ -73,3 +73,22 @@ tile.ore-uni:deepslate_sulfur_ore.name=Deepslate Sulfur Ore
 tile.ore-uni:sulfur_ore.name=Sulfur Ore
 tile.ore-uni:sulfur_block.name=Sulfur Block
 item.ore-uni:sulfur=Sulfur Powder
+
+tile.ore-uni:deepslate_solarium_ore.name=Deepslate Solarium Ore
+tile.ore-uni:solarium_ore.name=Solarium Ore
+##by Eko-Byte
+tile.ore-uni:solarium_ore.name=Solarium Ore
+tile.ore-uni:solarium_block.name=Solarium Block
+item.ore-uni:solarium=Solarium
+
+tile.ore-uni:deepslate_terrastrium_ore.name=Deepslate terrastrium Ore
+tile.ore-uni:terrastrium_ore.name=terrastrium Ore
+##by Eko-Byte
+tile.ore-uni:deepslate_terrastrium_ore.name=Deepslate Terrastrium Ore
+tile.ore-uni:terrastrium_ore.name=Terrastrium Ore
+##by Eko-byte
+tile.ore-uni:raw_terrastrium_block.name=Raw Terrastrium Block
+item.ore-uni:raw_terrastrium=Raw Terrastrium
+tile.ore-uni:terrastrium_block.name=Terrastrium Block
+item.ore-uni:terrastrium_ingot=Terrastrium Ingot
+item.ore-uni:terrastrium_nugget=Terrastrium Nugget

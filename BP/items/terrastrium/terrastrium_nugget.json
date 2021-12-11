@@ -1,0 +1,18 @@
+{
+	//by Eko-byte
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ore-uni:terrastrium_nugget",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ore"
+			},
+			"minecraft:icon": {
+				"texture": "ore-uni_terrastrium_nugget"
+			}
+		}
+	}
+}

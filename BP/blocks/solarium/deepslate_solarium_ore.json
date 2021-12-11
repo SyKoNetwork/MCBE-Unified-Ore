@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": { "identifier": "ore-uni:deepslate_solarium_ore" },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.ore"
+      },
+      "minecraft:destroy_time": 1.5,
+      "minecraft:explosion_resistance": 4,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "uni_deepslate_solarium_ore",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:loot": "loot_tables/solarium/solarium_ore.json"
+    }
+  }
+}

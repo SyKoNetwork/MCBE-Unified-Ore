@@ -224,7 +224,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
           "minecraft:material_instances": {
             "*": {
               texture: `uni_deepslate_${IDENTIFIER}_ore`,
-              rdeepslateer_method: "opaque",
+              render_method: "opaque",
             },
           },
           "minecraft:unit_cube": {},
@@ -313,7 +313,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
             "minecraft:material_instances": {
               "*": {
                 texture: `uni_${IDENTIFIER}_ore`,
-                rdeepslateer_method: "opaque",
+                render_method: "opaque",
               },
             },
             "minecraft:unit_cube": {},
@@ -340,7 +340,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
             "minecraft:material_instances": {
               "*": {
                 texture: `uni_${IDENTIFIER}_ore`,
-                rdeepslateer_method: "opaque",
+                render_method: "opaque",
               },
             },
             "minecraft:unit_cube": {},
@@ -367,7 +367,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
             "minecraft:material_instances": {
               "*": {
                 texture: `uni_${IDENTIFIER}_ore`,
-                rdeepslateer_method: "opaque",
+                render_method: "opaque",
               },
             },
             "minecraft:unit_cube": {},
@@ -408,12 +408,6 @@ module.exports = async ({ createFile, expandFile, models }) => {
         "minecraft:ore_feature": {
           replace_rules: [
             {
-              places_block: {
-                name: `ore-uni:${IDENTIFIER}_ore`,
-                states: {},
-              },
-              replace_rules: [
-                {
                   places_block: {
                     name: `ore-uni:${IDENTIFIER}_ore`,
                     states: {},
@@ -445,8 +439,6 @@ module.exports = async ({ createFile, expandFile, models }) => {
                     },
                   ],
                 },
-              ],
-            },
           ],
         },
       });

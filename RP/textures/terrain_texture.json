@@ -108,6 +108,27 @@
 		},
 		"uni_sulfur_block": {
 			"textures": "textures/blocks/sulfur/sulfur_block"
+		},
+		"uni_deepslate_solarium_ore": {
+			"textures": "textures/blocks/solarium/deepslate_solarium_ore"
+		},
+		"uni_solarium_ore": {
+			"textures": "textures/blocks/solarium/solarium_ore"
+		},
+		"uni_solarium_block": {
+			"textures": "textures/blocks/solarium/solarium_block"
+		},
+		"uni_deepslate_terrastrium_ore": {
+			"textures": "textures/blocks/terrastrium/deepslate_terrastrium_ore"
+		},
+		"uni_terrastrium_ore": {
+			"textures": "textures/blocks/terrastrium/terrastrium_ore"
+		},
+		"uni_raw_terrastrium_block": {
+			"textures": "textures/blocks/terrastrium/raw_terrastrium_block"
+		},
+		"uni_terrastrium_block": {
+			"textures": "textures/blocks/terrastrium/terrastrium_block"
 		}
 	}
 }
