@@ -178,8 +178,8 @@
       "Y_LEVEL_MIN",
       {
         "type": "numberInput",
-        "min": -64,
-        "max": 320,
+        "min": -500,
+        "max": 500,
         "step": 1,
         "optional": true
       }
@@ -189,8 +189,8 @@
       "Y_LEVEL_MAX",
       {
         "type": "numberInput",
-        "min": -64,
-        "max": 320,
+        "min": -500,
+        "max": 500,
         "step": 1,
         "optional": true
       }
@@ -224,16 +224,8 @@
         "type": "selectInput",
         "default": "underground_pass",
         "options": [
-          { "text": "First", "value": "first_pass" },
           { "text": "Before Underground", "value": "before_underground_pass" },
-          { "text": "Underground", "value": "underground_pass" },
-          { "text": "Before Surface", "value": "before_surface_pass" },
-          { "text": "Surface", "value": "surface_pass" },
-          { "text": "After Surface", "value": "after_surface_pass" },
-          { "text": "Before Sky", "value": "before_sky_pass" },
-          { "text": "Sky", "value": "sky_pass" },
-          { "text": "After Sky", "value": "after_sky_pass" },
-          { "text": "Final", "value": "final_pass" }
+          { "text": "Underground", "value": "underground_pass" }
         ]
       }
     ],
@@ -245,10 +237,9 @@
         "default": "uniform",
         "options": [
           { "text": "Uniform", "value": "uniform" },
+          { "text": "Triangle", "value": "triangle"},
           { "text": "Gaussian", "value": "gaussian" },
-          { "text": "Inverse Gaussian", "value": "inverse_gaussian" },
-          { "text": "Fixed Grid", "value": "fixed_grid" },
-          { "text": "Jittered Grid", "value": "jittered_grid" }
+          { "text": "Inverse Gaussian", "value": "inverse_gaussian" }
         ]
       }
     ],
