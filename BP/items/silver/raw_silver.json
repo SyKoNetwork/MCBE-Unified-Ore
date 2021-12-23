@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ore-uni:raw_silver",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "ore-uni_raw_silver"
+            },
+            "minecraft:display_name": {
+                "value": "Raw Silver"
+            }
+        }
+    }
+}

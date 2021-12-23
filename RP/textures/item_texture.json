@@ -59,6 +59,12 @@
 		},
 		"ore-uni_sulfur": {
 			"textures": "textures/items/sulfur/sulfur"
+		},
+		"ore-uni_raw_silver": {
+			"textures": "textures/items/silver/raw_silver"
+		},
+		"ore-uni_silver_ingot": {
+			"textures": "textures/items/silver/silver_ingot"
 		}
 	}
 }
