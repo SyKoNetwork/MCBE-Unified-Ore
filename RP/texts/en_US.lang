@@ -96,4 +96,11 @@ tile.ore-uni:silver_ore.name=Silver Ore
 tile.ore-uni:raw_silver_block.name=Raw Silver Block
 item.ore-uni:raw_silver=Raw Silver
 tile.ore-uni:silver_block.name=Silver Block
+
+##by Outer Cloud Studio
+tile.ore-uni:deepslate_silver_ore.name=Deepslate Silver Ore
+tile.ore-uni:silver_ore.name=Silver Ore
+tile.ore-uni:silver_block.name=Silver Block
+tile.ore-uni:raw_silver_block.name=Raw Silver Block
+item.ore-uni:raw_silver=Raw Silver
 item.ore-uni:silver_ingot=Silver Ingot
