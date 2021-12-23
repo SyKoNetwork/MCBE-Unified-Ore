@@ -1,0 +1,15 @@
+{
+    //by Eko-byte
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ore-uni:furnace_raw_terrastrium"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ore-uni:raw_terrastrium",
+		"output": "ore-uni:terrastrium_ingot"
+	}
+}

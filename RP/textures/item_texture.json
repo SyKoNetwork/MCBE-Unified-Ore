@@ -60,6 +60,18 @@
 		"ore-uni_sulfur": {
 			"textures": "textures/items/sulfur/sulfur"
 		},
+		"ore-uni_solarium": {
+			"textures": "textures/items/solarium/solarium"
+		},
+		"ore-uni_raw_terrastrium": {
+			"textures": "textures/items/terrastrium/raw_terrastrium"
+		},
+		"ore-uni_terrastrium_ingot": {
+			"textures": "textures/items/terrastrium/terrastrium_ingot"
+		},
+		"ore-uni_terrastrium_nugget": {
+			"textures": "textures/items/terrastrium/terrastrium_nugget"
+		},
 		"ore-uni_raw_silver": {
 			"textures": "textures/items/silver/raw_silver"
 		},

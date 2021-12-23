@@ -83,5 +83,26 @@
 	},
 	"ore-uni:sulfur_block": {
 		"sound": "metal"
+	},
+	"ore-uni:deepslate_solarium_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:solarium_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:solarium_block": {
+		"sound": "metal"
+	},
+	"ore-uni:deepslate_terrastrium_ore": {
+		"sound": "deepslate"
+	},
+	"ore-uni:terrastrium_ore": {
+		"sound": "stone"
+	},
+	"ore-uni:raw_terrastrium_block": {
+		"sound": "stone"
+	},
+	"ore-uni:terrastrium_block": {
+		"sound": "metal"
 	}
 }

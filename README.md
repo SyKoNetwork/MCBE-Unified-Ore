@@ -10,6 +10,8 @@ This project aims to create an open sorce repository for custom ores in Minecraf
 > - [X] Nickel
 > - [X] Opal
 > - [X] Lunite
+> - [X] Solarium
+> - [X] Terrastrium
 > - [X] Uranium
 > - [X] Zinc
 > - [X] Sulfur

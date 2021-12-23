@@ -1,0 +1,18 @@
+{
+    //by {{AUTHOR}}
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ore-uni:{{IDENTIFIER}}_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.ore"
+			},
+			"minecraft:icon": {
+				"texture": "ore-uni_{{IDENTIFIER}}_ingot"
+			}
+		}
+	}
+}

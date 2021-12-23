@@ -1,0 +1,13 @@
+{
+	"texture_data": {
+
+		//by {{AUTHOR}}
+		"ore-uni_{{IDENTIFIER}}_scrap": {
+			"textures": "textures/items/{{IDENTIFIER}}/{{IDENTIFIER}}_scrap"
+		},
+		"ore-uni_{{IDENTIFIER}}_ingot": {
+			"textures": "textures/items/{{IDENTIFIER}}/{{IDENTIFIER}}_ingot"
+		}
+
+	}
+}

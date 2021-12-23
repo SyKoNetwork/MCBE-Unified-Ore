@@ -1,0 +1,22 @@
+{
+    //by Eko-Byte
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_solarium_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:solarium",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "ore-uni:solarium_block",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    //by {{AUTHOR}}
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ore-uni:crafting_{{IDENTIFIER}}_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "ore-uni:{{IDENTIFIER}}_ingot",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "ore-uni:{{IDENTIFIER}}_block",
+            "count": 1
+        }
+    }
+}
