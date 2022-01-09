@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "white_diamond_block",
+		"metalness_emissive_roughness": "white_diamond_block_mer",
+		"heightmap": "white_diamond_block_heightmap"
+	}
+}
