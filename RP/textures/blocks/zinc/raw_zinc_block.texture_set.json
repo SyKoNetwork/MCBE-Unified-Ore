@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "raw_zinc_block",
+        "metalness_emissive_roughness": [255,0,51],
+        "heightmap": "raw_zinc_block_heightmap"
+    }
+}

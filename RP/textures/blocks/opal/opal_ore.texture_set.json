@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "opal_ore",
+        "metalness_emissive_roughness": "opal_ore_mer",
+        "heightmap": "opal_ore_heightmap"
+    }
+}

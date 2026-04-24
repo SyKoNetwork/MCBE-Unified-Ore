@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "tourmaline_ore",
+        "metalness_emissive_roughness": "tourmaline_ore_mer",
+        "heightmap": "tourmaline_ore_heightmap"
+    }
+}
